@@ -1,0 +1,267 @@
+/* All Yono India — minimal vanilla JS. No frameworks, no tracking. */
+(function () {
+  "use strict";
+
+  /* Mobile menu toggle */
+  var toggle = document.querySelector(".hamburger");
+  var mobileNav = document.querySelector(".mobile-nav");
+  if (toggle && mobileNav) {
+    toggle.addEventListener("click", function () {
+      var open = mobileNav.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    mobileNav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        mobileNav.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* Copy promo code buttons (event delegation so it also works on rows rendered later from JSON) */
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".copy-btn[data-code]");
+    if (!btn) return;
+    var code = btn.getAttribute("data-code");
+    if (!code) return;
+    var done = function () {
+      var original = btn.textContent;
+      btn.textContent = "Copied";
+      btn.classList.add("is-copied");
+      setTimeout(function () {
+        btn.textContent = original;
+        btn.classList.remove("is-copied");
+      }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(code).then(done).catch(done);
+    } else {
+      var temp = document.createElement("textarea");
+      temp.value = code;
+      document.body.appendChild(temp);
+      temp.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(temp);
+      done();
+    }
+  });
+
+  /* Game directory search + category filter (operates on existing static cards) */
+  var searchInput = document.getElementById("gameSearch");
+  var chips = document.querySelectorAll(".chip[data-filter]");
+  var cards = document.querySelectorAll(".game-card[data-name]");
+  var resultsCount = document.getElementById("resultsCount");
+  var noResults = document.getElementById("noResults");
+  var activeFilter = "all";
+
+  function applyFilters() {
+    if (!cards.length) return;
+    var query = (searchInput && searchInput.value || "").trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function (card) {
+      var name = (card.getAttribute("data-name") || "").toLowerCase();
+      var category = card.getAttribute("data-category") || "";
+      var matchesQuery = !query || name.indexOf(query) !== -1;
+      var matchesFilter = activeFilter === "all" || category === activeFilter;
+      var show = matchesQuery && matchesFilter;
+      card.style.display = show ? "" : "none";
+      if (show) visible++;
+    });
+    if (resultsCount) {
+      resultsCount.textContent = visible + (visible === 1 ? " game found" : " games found");
+    }
+    if (noResults) {
+      noResults.classList.toggle("is-visible", visible === 0);
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", applyFilters);
+  }
+  if (chips.length) {
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        chips.forEach(function (c) { c.classList.remove("is-active"); });
+        chip.classList.add("is-active");
+        activeFilter = chip.getAttribute("data-filter") || "all";
+        applyFilters();
+      });
+    });
+    var categoryParam = new URLSearchParams(window.location.search).get("category");
+    if (categoryParam) {
+      var matchedChip = document.querySelector('.chip[data-filter="' + categoryParam + '"]');
+      if (matchedChip) {
+        chips.forEach(function (c) { c.classList.remove("is-active"); });
+        matchedChip.classList.add("is-active");
+        activeFilter = categoryParam;
+      }
+    }
+  }
+  if (searchInput || chips.length) {
+    applyFilters();
+  }
+
+  /* Promo Code page: search + Active / Waiting to Release filter (rows are injected from JSON, see loadPromoCodes below) */
+  var promoSearch = document.getElementById("promoSearch");
+  var promoChips = document.querySelectorAll(".chip[data-status-filter]");
+  var promoResultsCount = document.getElementById("promoResultsCount");
+  var promoNoResults = document.getElementById("promoNoResults");
+  var activeStatusFilter = "all";
+
+  function applyPromoFilters() {
+    var promoRows = document.querySelectorAll(".promo-table tr[data-name]");
+    if (!promoRows.length) return;
+    var query = (promoSearch && promoSearch.value || "").trim().toLowerCase();
+    var visible = 0;
+    promoRows.forEach(function (row) {
+      var name = (row.getAttribute("data-name") || "").toLowerCase();
+      var status = row.getAttribute("data-status") || "";
+      var matchesQuery = !query || name.indexOf(query) !== -1;
+      var matchesFilter = activeStatusFilter === "all" || status === activeStatusFilter;
+      var show = matchesQuery && matchesFilter;
+      row.style.display = show ? "" : "none";
+      if (show) visible++;
+    });
+    if (promoResultsCount) {
+      promoResultsCount.textContent = visible + (visible === 1 ? " code found" : " codes found");
+    }
+    if (promoNoResults) {
+      promoNoResults.classList.toggle("is-visible", visible === 0);
+    }
+  }
+
+  if (promoSearch) {
+    promoSearch.addEventListener("input", applyPromoFilters);
+  }
+  if (promoChips.length) {
+    promoChips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        promoChips.forEach(function (c) { c.classList.remove("is-active"); });
+        chip.classList.add("is-active");
+        activeStatusFilter = chip.getAttribute("data-status-filter") || "all";
+        applyPromoFilters();
+      });
+    });
+  }
+
+  /* Render promo code tables from /assets/data/promo-codes.txt so codes can be updated by editing one plain-text file */
+  function escapeHtml(str) {
+    return String(str == null ? "" : str).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  var PROMO_STATUS_WORDS = {
+    "checking": { status: "checking", label: "Checking" },
+    "waiting to release": { status: "waiting", label: "Waiting to Release" },
+    "waiting": { status: "waiting", label: "Waiting to Release" },
+    "active": { status: "active", label: "Active" },
+    "unavailable": { status: "unavailable", label: "Unavailable" }
+  };
+
+  function slugifyGameName(name) {
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function parsePromoSlot(raw) {
+    var key = (raw || "").trim().toLowerCase();
+    var known = PROMO_STATUS_WORDS[key];
+    if (known) return { type: "status", status: known.status, label: known.label };
+    return { type: "code", value: (raw || "").trim() };
+  }
+
+  function parsePromoText(text) {
+    var lastUpdatedMatch = text.match(/^Last Updated:\s*(.+)$/im);
+    var games = [];
+    text.split(/\n\s*\n/).forEach(function (block) {
+      var nameMatch = block.match(/Platform name:\s*(.+)/i);
+      if (!nameMatch) return;
+      var morningMatch = block.match(/Morning code:\s*(.+)/i);
+      var afternoonMatch = block.match(/Afternoon code:\s*(.+)/i);
+      var eveningMatch = block.match(/Evening code:\s*(.+)/i);
+      var name = nameMatch[1].trim();
+      var morning = parsePromoSlot(morningMatch && morningMatch[1]);
+      var afternoon = parsePromoSlot(afternoonMatch && afternoonMatch[1]);
+      var evening = parsePromoSlot(eveningMatch && eveningMatch[1]);
+      var status = (morning.type === "code" || afternoon.type === "code" || evening.type === "code") ? "active" : "waiting";
+      games.push({
+        slug: slugifyGameName(name),
+        name: name,
+        status: status,
+        morning: morning,
+        afternoon: afternoon,
+        evening: evening
+      });
+    });
+    return { lastUpdated: lastUpdatedMatch ? lastUpdatedMatch[1].trim() : "", games: games };
+  }
+
+  function buildPromoCell(label, cell) {
+    if (cell && cell.type === "code") {
+      var code = escapeHtml(cell.value);
+      return '<td data-label="' + label + '"><span class="code-cell"><span class="code-value">' + code + '</span><button class="copy-btn" data-code="' + code + '" type="button">Copy</button></span></td>';
+    }
+    var status = cell && cell.status ? cell.status : "waiting";
+    var pillLabel = cell && cell.label ? cell.label : "Waiting to Release";
+    return '<td data-label="' + label + '"><span class="status-pill status-' + status + '">' + escapeHtml(pillLabel) + "</span></td>";
+  }
+
+  function buildPromoRow(game) {
+    var name = escapeHtml(game.name);
+    return '<tr id="' + game.slug + '" data-name="' + name + '" data-status="' + game.status + '">' +
+      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/' + game.slug + '.webp" alt="' + name + ' logo" width="30" height="30" loading="lazy">' + name + "</span></td>" +
+      buildPromoCell("Morning", game.morning) +
+      buildPromoCell("Afternoon", game.afternoon) +
+      buildPromoCell("Evening", game.evening) +
+      '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/' + game.slug + '/">View Game</a></td>' +
+      "</tr>";
+  }
+
+  var promoTableBody = document.getElementById("promoTableBody");
+  var promoPreviewBody = document.getElementById("promoPreviewBody");
+
+  if (promoTableBody || promoPreviewBody) {
+    fetch("/assets/data/promo-codes.txt")
+      .then(function (res) { return res.text(); })
+      .then(function (text) { return parsePromoText(text); })
+      .then(function (data) {
+        var games = data.games || [];
+        var bySlug = {};
+        games.forEach(function (g) { bySlug[g.slug] = g; });
+
+        document.querySelectorAll("#promoLastUpdated").forEach(function (el) {
+          el.textContent = data.lastUpdated || "—";
+        });
+
+        if (promoTableBody) {
+          promoTableBody.innerHTML = games.map(buildPromoRow).join("");
+          applyPromoFilters();
+          if (window.location.hash) {
+            var target = document.getElementById(window.location.hash.slice(1));
+            if (target) target.scrollIntoView({ block: "center" });
+          }
+        }
+
+        if (promoPreviewBody) {
+          var slugs = (promoPreviewBody.getAttribute("data-slugs") || "").split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+          var rows = slugs.map(function (slug) { return bySlug[slug]; }).filter(Boolean);
+          promoPreviewBody.innerHTML = rows.map(buildPromoRow).join("");
+        }
+      })
+      .catch(function () {
+        document.querySelectorAll(".promo-loading-row td").forEach(function (td) {
+          td.textContent = "Could not load promo codes right now. Please refresh the page.";
+        });
+      });
+  }
+
+  /* Highlight active bottom nav + main nav link by current path */
+  var path = window.location.pathname.replace(/\/index\.html$/, "/");
+  document.querySelectorAll("[data-nav-link]").forEach(function (link) {
+    var href = link.getAttribute("href");
+    if (!href) return;
+    if (href === path || (href !== "/" && path.indexOf(href) === 0)) {
+      link.classList.add("is-active");
+    }
+  });
+})();
