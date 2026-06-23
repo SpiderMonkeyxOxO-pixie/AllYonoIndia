@@ -101,6 +101,91 @@
     applyFilters();
   }
 
+  /* Live search against Strapi (additive — the static-card filter above always
+     runs first and keeps working even if this fetch fails or Strapi is down).
+     Only adds cards for games that aren't already present as static cards,
+     e.g. a brand-new game added in the CMS before the next page regeneration. */
+  var STRAPI_API_BASE = "https://api.allyonoindia.com";
+  var gameGrid = document.querySelector(".game-grid");
+  var liveSearchTimer = null;
+
+  function clearLiveCards() {
+    if (!gameGrid) return;
+    gameGrid.querySelectorAll('.game-card[data-source="live"]').forEach(function (el) {
+      el.parentNode.removeChild(el);
+    });
+  }
+
+  function catLabel(cat) {
+    var labels = { slots: "Slots", rummy: "Rummy", arcade: "Arcade", casual: "Casual", "card-games": "Card Games", sports: "Sports" };
+    return labels[cat] || cat;
+  }
+
+  function renderLiveCard(game) {
+    var el = document.createElement("article");
+    el.className = "game-card";
+    el.setAttribute("data-name", game.name);
+    el.setAttribute("data-category", game.category);
+    el.setAttribute("data-source", "live");
+    var pills = (game.statuses || [])
+      .map(function (s) { return '<span class="status-pill status-' + s[0] + '">' + s[1] + "</span>"; })
+      .join("");
+    el.innerHTML =
+      '<a class="game-card-top" href="/all-yono-games/' + game.slug + '/" style="text-decoration:none">' +
+      '<span class="game-icon"><img src="' + game.img + '" alt="' + game.name + ' logo" width="52" height="52" loading="lazy"></span>' +
+      "<div><h3 class=\"game-name\">" + game.name + '</h3><span class="game-category">' + catLabel(game.category) + "</span></div></a>" +
+      '<div class="status-row">' + pills + "</div>" +
+      '<ul class="meta-list"><li>Promo Code: <b>' + game.promo_status + "</b></li></ul>" +
+      '<div class="card-actions">' +
+      '<a class="btn btn-cyan btn-sm" href="' + game.download_url + '" target="_blank" rel="nofollow noopener noreferrer">Download URL</a>' +
+      '<a class="btn btn-ghost btn-sm" href="/promo-code/#' + game.slug + '">Check Code</a>' +
+      "</div>" +
+      '<p class="access-note">Login inside app only</p>';
+    return el;
+  }
+
+  function liveSearch(query, category) {
+    if (!gameGrid || !query) {
+      clearLiveCards();
+      return;
+    }
+    var url = STRAPI_API_BASE + "/api/games?filters[name][$containsi]=" + encodeURIComponent(query);
+    if (category && category !== "all") {
+      url += "&filters[category][$eq]=" + encodeURIComponent(category);
+    }
+    fetch(url)
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (body) {
+        if (!body) return;
+        clearLiveCards();
+        var existingNames = Array.prototype.map.call(cards, function (c) {
+          return (c.getAttribute("data-name") || "").toLowerCase();
+        });
+        var added = 0;
+        body.data.forEach(function (game) {
+          if (existingNames.indexOf(game.name.toLowerCase()) !== -1) return;
+          gameGrid.appendChild(renderLiveCard(game));
+          added++;
+        });
+        if (added && resultsCount) {
+          var currentVisible = parseInt(resultsCount.textContent, 10) || 0;
+          resultsCount.textContent = (currentVisible + added) + " games found";
+        }
+      })
+      .catch(function () {
+        /* Strapi unreachable — static-card search above already covers the page, nothing else to do. */
+      });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      clearTimeout(liveSearchTimer);
+      liveSearchTimer = setTimeout(function () {
+        liveSearch(searchInput.value.trim(), activeFilter);
+      }, 300);
+    });
+  }
+
   /* Promo Code page: search + Active / Waiting to Release filter (rows are injected from JSON, see loadPromoCodes below) */
   var promoSearch = document.getElementById("promoSearch");
   var promoChips = document.querySelectorAll(".chip[data-status-filter]");
@@ -217,13 +302,57 @@
       "</tr>";
   }
 
+  /* Maps Strapi's PromoCode + PromoMeta records into the same {lastUpdated, games}
+     shape parsePromoText() already produces, so buildPromoRow()/buildPromoCell()
+     below don't need to know which source the data came from. */
+  function parsePromoFromStrapi(promoCodesBody, metaBody) {
+    var games = (promoCodesBody.data || []).map(function (pc) {
+      var g = pc.game || {};
+      var morning = parsePromoSlot(pc.morning_code);
+      var afternoon = parsePromoSlot(pc.afternoon_code);
+      var evening = parsePromoSlot(pc.evening_code);
+      return {
+        slug: g.slug || slugifyGameName(g.name || ""),
+        name: g.name || "",
+        status: (morning.type === "code" || afternoon.type === "code" || evening.type === "code") ? "active" : "waiting",
+        morning: morning,
+        afternoon: afternoon,
+        evening: evening
+      };
+    });
+    return { lastUpdated: (metaBody.data && metaBody.data.last_updated_label) || "", games: games };
+  }
+
+  function fetchPromoDataFromStrapi() {
+    return Promise.all([
+      fetch(STRAPI_API_BASE + "/api/promo-codes?populate=game&pagination[pageSize]=100").then(function (res) {
+        if (!res.ok) throw new Error("promo-codes fetch failed");
+        return res.json();
+      }),
+      fetch(STRAPI_API_BASE + "/api/promo-meta").then(function (res) {
+        if (!res.ok) throw new Error("promo-meta fetch failed");
+        return res.json();
+      })
+    ]).then(function (results) {
+      return parsePromoFromStrapi(results[0], results[1]);
+    });
+  }
+
+  /* Falls back to the plain-text file (still kept up to date in parallel during the
+     Strapi transition period) if api.allyonoindia.com is unreachable, so the page
+     keeps working either way. */
+  function fetchPromoDataFromTextFile() {
+    return fetch("/assets/data/promo-codes.txt")
+      .then(function (res) { return res.text(); })
+      .then(function (text) { return parsePromoText(text); });
+  }
+
   var promoTableBody = document.getElementById("promoTableBody");
   var promoPreviewBody = document.getElementById("promoPreviewBody");
 
   if (promoTableBody || promoPreviewBody) {
-    fetch("/assets/data/promo-codes.txt")
-      .then(function (res) { return res.text(); })
-      .then(function (text) { return parsePromoText(text); })
+    fetchPromoDataFromStrapi()
+      .catch(fetchPromoDataFromTextFile)
       .then(function (data) {
         var games = data.games || [];
         var bySlug = {};
