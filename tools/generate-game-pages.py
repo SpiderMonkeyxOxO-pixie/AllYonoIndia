@@ -217,6 +217,7 @@ def build_game_page(g, by_cat):
 
   gtag("config", "G-VGXGPH0EFT");
 </script>
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
