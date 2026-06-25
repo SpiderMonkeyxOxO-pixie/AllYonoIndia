@@ -4,3 +4,4 @@ s-blog.zip
 lh-*.json
 node_modules/
 tools/.env
+.user.ini
