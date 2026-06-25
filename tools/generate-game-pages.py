@@ -39,6 +39,26 @@ CAT_LABEL = {
     "casual": "Casual", "card-games": "Card Games", "sports": "Sports",
 }
 
+# Dedicated SEO landing pages for categories with real standalone search demand
+# (low-competition keyword research, 2026-06-25) — every other category is still
+# reachable via the client-side filter chips on the main listing page only.
+CATEGORY_PAGES = {
+    "rummy": {
+        "title": "All Yono Rummy Games | APK Download & Promo Codes",
+        "meta_desc": "Browse every All Yono rummy game and app with APK download links, live access status, and promo code checks in one directory.",
+        "keywords": "all yono rummy, yono rummy apk download all, all yono rummy apk, yono rummy games",
+        "h1": "All Yono Rummy Games",
+        "intro": "Every All Yono rummy game and app in one place — APK download links, live access status, and promo code checks for each title below.",
+    },
+    "arcade": {
+        "title": "All Yono Arcade Games | Download & Promo Codes",
+        "meta_desc": "Browse every All Yono arcade game and app with download links, live access status, and promo code checks in one directory.",
+        "keywords": "all yono arcade, yono arcade all download, yono arcade all games, all yono arcade apk",
+        "h1": "All Yono Arcade Games",
+        "intro": "Every All Yono arcade game and app in one place — download links, live access status, and promo code checks for each title below.",
+    },
+}
+
 
 def fetch_games():
     games = []
@@ -134,7 +154,8 @@ FOOTER = '''<footer class="site-footer">
         <h3>Game Access</h3>
         <ul>
           <li><a href="/all-yono-games/">Download URLs</a></li>
-          <li><a href="/all-yono-games/">Open Game Links</a></li>
+          <li><a href="/all-yono-games/rummy/">All Yono Rummy Games</a></li>
+          <li><a href="/all-yono-games/arcade/">All Yono Arcade Games</a></li>
           <li><a href="/blog/all-yono-games-list/">All Yono Games List 2026</a></li>
           <li><a href="/blog/">Access Notes</a></li>
         </ul>
@@ -325,6 +346,101 @@ def build_listing_card(g):
         </article>'''
 
 
+def build_category_page(category, games_in_cat):
+    seo = CATEGORY_PAGES[category]
+    canonical = f"https://allyonoindia.com/all-yono-games/{category}/"
+    cards = "\n        ".join(build_listing_card(g) for g in games_in_cat)
+    other_links = "\n        ".join(
+        f'<a href="/all-yono-games/{slug}/" style="color:var(--cyan);font-weight:700">{CATEGORY_PAGES[slug]["h1"]}</a>'
+        for slug in CATEGORY_PAGES if slug != category
+    )
+
+    import json as _json
+    breadcrumb_json = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoindia.com/"},
+            {"@type": "ListItem", "position": 2, "name": "All Yono Games", "item": "https://allyonoindia.com/all-yono-games/"},
+            {"@type": "ListItem", "position": 3, "name": seo["h1"], "item": canonical},
+        ],
+    }
+
+    return f'''<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag("js", new Date());
+
+  gtag("config", "G-VGXGPH0EFT");
+</script>
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>{seo["title"]}</title>
+<meta name="description" content="{seo["meta_desc"]}">
+<meta name="keywords" content="{seo["keywords"]}">
+<link rel="canonical" href="{canonical}">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{seo["title"]}">
+<meta property="og:description" content="{seo["meta_desc"]}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:site_name" content="All Yono India">
+<meta property="og:image" content="https://allyonoindia.com/assets/images/og-cover.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{seo["title"]}">
+<meta name="twitter:description" content="{seo["meta_desc"]}">
+<meta name="twitter:image" content="https://allyonoindia.com/assets/images/og-cover.jpg">
+
+<link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+<link rel="apple-touch-icon" href="/assets/icons/logo.webp">
+<link rel="preload" href="/assets/fonts/goldman-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/goldman-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.min.css">
+
+<script type="application/ld+json">
+{_json.dumps(breadcrumb_json, indent=2)}
+</script>
+</head>
+<body>
+
+{HEADER}
+
+<main>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/all-yono-games/">All Yono Games</a> / <span aria-current="page">{seo["h1"]}</span>
+    </nav>
+  </div>
+
+  <section class="section" style="padding-top:24px">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Game Directory · {CAT_LABEL[category]}</span>
+        <h1>{seo["h1"]}</h1>
+        <p>{seo["intro"]}</p>
+      </div>
+
+      <p style="margin:-4px 0 20px;font-size:0.92rem">Other categories: {other_links} &middot; <a href="/all-yono-games/" style="color:var(--cyan);font-weight:700">Full Directory</a></p>
+
+      <div class="game-grid">
+        {cards}
+      </div>
+    </div>
+  </section>
+</main>
+
+{FOOTER}'''
+
+
 def regenerate_listing_page(games):
     html = open(LISTING_PAGE, encoding="utf-8").read()
     cards = "\n        ".join(build_listing_card(g) for g in games)
@@ -356,7 +472,17 @@ def main():
             f.write(build_game_page(g, by_cat))
 
     regenerate_listing_page(games)
-    print(f"Generated {len(games)} individual game pages and regenerated the listing page grid.")
+
+    for category in CATEGORY_PAGES:
+        out_dir = os.path.join(ROOT, "all-yono-games", category)
+        os.makedirs(out_dir, exist_ok=True)
+        with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(build_category_page(category, by_cat.get(category, [])))
+
+    print(
+        f"Generated {len(games)} individual game pages, regenerated the listing page grid, "
+        f"and built {len(CATEGORY_PAGES)} category landing pages."
+    )
 
 
 if __name__ == "__main__":
