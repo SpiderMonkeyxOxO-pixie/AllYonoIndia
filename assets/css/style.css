@@ -720,6 +720,8 @@ table.promo-table {
   vertical-align: middle;
 }
 .promo-table tr td:first-child { font-weight: 700; }
+.promo-table th:last-child,
+.promo-table td:last-child { width: 130px; white-space: nowrap; }
 .promo-game-cell { display: flex; align-items: center; gap: 10px; }
 .promo-game-cell img {
   width: 30px;
