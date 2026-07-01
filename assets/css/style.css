@@ -702,6 +702,8 @@ p { margin: 0 0 var(--space-3); color: var(--muted); }
 }
 table.promo-table {
   width: 100%;
+  min-width: 800px;
+  table-layout: fixed;
   border-collapse: collapse;
   font-size: 0.88rem;
 }
@@ -714,14 +716,16 @@ table.promo-table {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+.promo-table th:first-child { width: 160px; }
+.promo-table th:last-child  { width: 140px; }
 .promo-table td {
   padding: 14px 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   vertical-align: middle;
+  overflow-wrap: break-word;
 }
 .promo-table tr td:first-child { font-weight: 700; }
-.promo-table th:last-child,
-.promo-table td:last-child { width: 130px; white-space: nowrap; }
+.promo-table td:last-child { white-space: nowrap; }
 .promo-game-cell { display: flex; align-items: center; gap: 10px; }
 .promo-game-cell img {
   width: 30px;
