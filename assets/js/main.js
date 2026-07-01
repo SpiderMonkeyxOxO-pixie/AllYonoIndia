@@ -294,7 +294,7 @@
   function buildPromoRow(game) {
     var name = escapeHtml(game.name);
     return '<tr id="' + game.slug + '" data-name="' + name + '" data-status="' + game.status + '">' +
-      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/' + game.slug + '.webp" alt="' + name + ' logo" width="30" height="30" loading="lazy">' + name + "</span></td>" +
+      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/' + game.slug + '.webp" alt="' + name + ' logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">' + name + "</span></td>" +
       buildPromoCell("Morning", game.morning) +
       buildPromoCell("Afternoon", game.afternoon) +
       buildPromoCell("Evening", game.evening) +
