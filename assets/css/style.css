@@ -766,7 +766,7 @@ table.promo-table {
 
 /* Mobile: table -> stacked cards */
 @media (max-width: 760px) {
-  table.promo-table, table.promo-table thead, table.promo-table tbody, table.promo-table tr, table.promo-table td { display: block; width: 100%; }
+  table.promo-table, table.promo-table thead, table.promo-table tbody, table.promo-table tr, table.promo-table td { display: block; width: 100%; min-width: 0; }
   table.promo-table thead { display: none; }
   table.promo-table tr {
     padding: var(--space-4);
