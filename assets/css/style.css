@@ -580,6 +580,7 @@ p { margin: 0 0 var(--space-3); color: var(--muted); }
 .status-waiting { background: rgba(100, 116, 139, 0.18); color: var(--muted); }
 .status-unavailable { background: rgba(239, 68, 68, 0.14); color: var(--error); }
 .status-available { background: rgba(34, 197, 94, 0.14); color: var(--green); }
+.status-new { background: linear-gradient(135deg, var(--pink), var(--purple)); color: #fff; }
 
 .meta-list {
   display: flex;
