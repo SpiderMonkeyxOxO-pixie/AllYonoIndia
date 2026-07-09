@@ -1857,4 +1857,56 @@ NEW_POSTS = [
             {"question": "What happens if my connection drops while playing Yono Slots?", "answer": "There's no shared match state to forfeit the way there is in live rummy, but a poor connection can still interrupt a spin or delay results. A stable Wi-Fi connection avoids this."},
         ],
     },
+    {
+        "title": "Max Rummy Just Landed on All Yono India — Here's the Full Setup Guide",
+        "slug": "max-rummy-apk-download",
+        "meta_title": "Max Rummy APK Download 2026 — New Listing, Full Setup Guide",
+        "meta_description": "Max Rummy is the newest app added to the All Yono directory. Here's the verified download link, the login steps, and where its promo code will show up once live.",
+        "keywords": "max rummy, max rummy apk download, max rummy login, max rummy promo code, max rummy yono",
+        "eyebrow": "Rummy Games",
+        "cover_image": "/assets/images/blog/max-rummy-apk-download.webp",
+        "image_alt": "Max Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Max Rummy APK Download & Login Guide",
+        "published_date": "2026-07-09",
+        "body_html": f'''<p>Max Rummy is the latest app added to the All Yono India directory, and because it's brand new here, this guide looks a little different from the rest of the site: there's no long history of promo code patterns to reference yet, and the download link has just been verified for the first time rather than the tenth. What follows is the straight setup path &mdash; download, login, and what to expect from the promo code slot while it's still finding its rhythm.</p>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Max Rummy. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Why This One's Different From the Rest of the List</h2>
+      <p>Every other rummy app in this directory has weeks or months of tracked history behind it &mdash; a known promo code rhythm, a settled download domain, an established pattern. Max Rummy doesn't have that yet, and there's no point pretending otherwise. What it does have is a verified, working download link as of today, and a listing on the <a href="/all-yono-games/max-rummy/" {LINK}>Max Rummy directory page</a> that will get updated the moment its promo code pattern becomes clear. If you're the type who likes trying an app close to when it's first listed rather than waiting for the crowd, this is that window.</p>
+
+      <h2>Step One: Get the APK</h2>
+      <p>Max Rummy's current build is hosted at maxrummy99.com. As with every app on this site, treat the <a href="/all-yono-games/max-rummy/" {LINK}>directory page</a> as the source of truth rather than a link forwarded in a group chat &mdash; that's true for every app here, but it matters even more for a fresh listing, since there's no backlog of old links floating around yet to confuse things. If your phone flags the install with an "unknown sources" warning, that's Android's standard check for anything installed outside the Play Store, not a Max Rummy-specific issue. One toggle under Settings &rarr; Security clears it.</p>
+
+      <h2>Step Two: Log In</h2>
+      <p>Login runs on the same pattern as every other app in this directory: open Max Rummy after installing it, enter your phone number, and confirm the OTP sent by SMS. There's no account setup happening on this website at any point &mdash; it all happens inside the app itself. Worth repeating since it's the most common scam vector attached to a newly searched term like this one: if any webpage, not the app, asks for your Max Rummy OTP or password before you've installed anything, that's not part of the real flow. Close it and come back to the directory page.</p>
+
+      <h2>Step Three: About the Promo Code</h2>
+      <p>Max Rummy's promo code slot currently reads "Waiting to Release" on the <a href="/promo-code/#max-rummy" {LINK}>Promo Code page</a>, which is the honest status for a listing this new &mdash; not every app has a code live at every moment, and a brand-new one is the least likely to have settled into a release schedule yet. That page is where the first code will show up the moment it's issued, so it's worth a check back rather than assuming none is coming. Nothing here gets invented or guessed to fill the gap; if the slot is empty, it's genuinely empty.</p>
+
+      <h2>Where It Sits in the Rummy Category</h2>
+      <p>Max Rummy joins a rummy lineup that already includes ABC Rummy, Love Rummy, OK Rummy, Rumble Rummy, Top Rummy, and more &mdash; each running its own separate account and its own promo pool, so trying Max Rummy doesn't touch anything you've already got set up elsewhere. If you want to see how it sits next to the rest of the category before committing, the <a href="/all-yono-games/rummy/" {LINK}>rummy category directory</a> lists every app side by side with a direct download button.</p>
+
+      <h2>If Something Trips You Up</h2>
+      <ol {LIST}>
+        <li><strong>Download link won't open.</strong> Go back to the <a href="/all-yono-games/max-rummy/" {LINK}>directory page</a> for the current link rather than a saved one — new listings get their links rechecked more often early on.</li>
+        <li><strong>Phone blocks the install.</strong> Standard Android behavior for anything sideloaded — Settings &rarr; Security has the toggle.</li>
+        <li><strong>No promo code showing.</strong> Expected for a listing this new. Check the <a href="/promo-code/#max-rummy" {LINK}>Promo Code page</a> periodically rather than assuming the feature isn't coming.</li>
+        <li><strong>OTP is slow to arrive.</strong> Give it a minute before requesting a second one.</li>
+      </ol>
+
+      <h2>Get Started</h2>
+      <p>The <a href="/all-yono-games/max-rummy/" {LINK}>current download link</a> is live, login takes minutes once it's installed, and the <a href="/promo-code/#max-rummy" {LINK}>promo code status</a> will update the moment there's something to show. Being early to a new listing just means checking back a little more often for that last piece.</p>
+
+      <h2>FAQs</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Is Max Rummy a new app on All Yono India?", "answer": "Yes — it's the newest addition to the directory. The download link has just been verified, and its promo code pattern hasn't been established yet."},
+            {"question": "Why doesn't Max Rummy have a promo code yet?", "answer": "New listings don't have a settled release schedule right away. The Promo Code page will show a live code the moment one is issued — until then, the slot honestly reads \"Waiting to Release.\""},
+            {"question": "How do I download the Max Rummy APK?", "answer": "Use the Download URL button on the Max Rummy directory page. It links to the current verified link at maxrummy99.com rather than an older or shared one."},
+            {"question": "Can I play Max Rummy alongside other All Yono rummy apps?", "answer": "Yes — each app in the directory has a completely separate account and promo pool, so adding Max Rummy doesn't affect anything you already have set up."},
+        ],
+    },
 ]
