@@ -1862,7 +1862,7 @@ NEW_POSTS = [
         "slug": "max-rummy-apk-download",
         "meta_title": "Max Rummy APK Download 2026 — New Listing, Full Setup Guide",
         "meta_description": "Max Rummy is the newest app added to the All Yono directory. Here's the verified download link, the login steps, and where its promo code will show up once live.",
-        "keywords": "max rummy, max rummy apk download, max rummy login, max rummy promo code, max rummy yono",
+        "keywords": "max rummy, max rummy apk download, max rummy login, max rummy promo code, max rummy yono, yono new app",
         "eyebrow": "Rummy Games",
         "cover_image": "/assets/images/blog/max-rummy-apk-download.webp",
         "image_alt": "Max Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
@@ -1897,6 +1897,9 @@ NEW_POSTS = [
         <li><strong>OTP is slow to arrive.</strong> Give it a minute before requesting a second one.</li>
       </ol>
 
+      <h2>Looking for the Latest Yono New App?</h2>
+      <p>If you're checking back periodically for whatever the Yono new app on the list is, Max Rummy is currently it &mdash; the most recent addition to the All Yono India directory as of this listing. That status won't last forever; something else will eventually take the "newest" spot. The <a href="/all-yono-games/" {LINK}>full All Yono directory</a> is the fastest way to see every app in one place, newest included, without relying on this post staying current forever.</p>
+
       <h2>Get Started</h2>
       <p>The <a href="/all-yono-games/max-rummy/" {LINK}>current download link</a> is live, login takes minutes once it's installed, and the <a href="/promo-code/#max-rummy" {LINK}>promo code status</a> will update the moment there's something to show. Being early to a new listing just means checking back a little more often for that last piece.</p>
 
@@ -1907,6 +1910,7 @@ NEW_POSTS = [
             {"question": "Why doesn't Max Rummy have a promo code yet?", "answer": "New listings don't have a settled release schedule right away. The Promo Code page will show a live code the moment one is issued — until then, the slot honestly reads \"Waiting to Release.\""},
             {"question": "How do I download the Max Rummy APK?", "answer": "Use the Download URL button on the Max Rummy directory page. It links to the current verified link at maxrummy99.com rather than an older or shared one."},
             {"question": "Can I play Max Rummy alongside other All Yono rummy apps?", "answer": "Yes — each app in the directory has a completely separate account and promo pool, so adding Max Rummy doesn't affect anything you already have set up."},
+            {"question": "Where can I check for the latest Yono new app additions?", "answer": "The All Yono Games directory lists every app currently tracked, including the newest ones as they're added — that's a more reliable check than any single blog post, since the \"newest\" listing changes over time."},
         ],
     },
 ]
