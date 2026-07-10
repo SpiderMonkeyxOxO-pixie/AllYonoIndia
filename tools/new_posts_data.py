@@ -746,7 +746,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/joy-rummy-apk-download.webp",
         "image_alt": "Joy Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Joy Rummy APK Download & Login Guide",
-        "published_date": "2026-07-11",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>If you searched "joy rummy yono," there's a good chance you didn't set out to find a game called "Joy Rummy Yono" &mdash; that app doesn't exist. What happened is more likely this: you came across Joy Rummy through an "All Yono" roundup or a friend's screenshot, closed the tab, and later searched the two words you remembered together. That mix-up is common enough that it's worth clearing up before the download steps: Joy Rummy is a standalone rummy app. It's listed <em>inside</em> the All Yono directory alongside dozens of other apps, but it isn't made by "All Yono," and its name has nothing to do with the SBI YONO banking app either, if that's what turned up first in your results.</p>
       <p>With that sorted, here's what you actually came for.</p>
 
@@ -797,7 +797,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/yn777-apk-download.webp",
         "image_alt": "YN777 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "YN777 APK Download & Login Guide",
-        "published_date": "2026-07-11",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Strip the vowels from "Yono" and you're left with "YN" &mdash; a pattern common enough in app branding that it's likely how YN777 got its name, following the same vowel-dropping shorthand used in text messaging and compact logos generally (think "TXT" for "text"). Paired with 777, one of the most recognized numbers in gambling branding, the full name reads as a compressed version of "Yono 777" rather than an unrelated invention. Worth knowing if the abbreviation had you second-guessing whether this app connects to the wider Yono naming family at all &mdash; loosely, yes, in branding style; not in ownership or accounts.</p>
 
       <div class="callout">
@@ -852,7 +852,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/neta-vip-apk-download.webp",
         "image_alt": "Neta VIP APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Neta VIP APK Download & Login Guide",
-        "published_date": "2026-07-11",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>"Neta" is a Hindi and Urdu word for politician or leader &mdash; commonly used, sometimes affectionately, sometimes sarcastically, to describe someone with authority or influence. Pairing it with "VIP" isn't accidental: the name is built to evoke status and importance, the same instinct behind names like Boss Rummy elsewhere in this network, just drawing on a different cultural reference point. It doesn't describe an actual feature or tier system inside the app &mdash; it's a branding choice aimed at making the app sound prestigious rather than a literal promise of special treatment.</p>
 
       <div class="callout">
@@ -910,7 +910,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/top-rummy-apk-download.webp",
         "image_alt": "Top Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Top Rummy APK Download & Login Guide",
-        "published_date": "2026-07-12",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>"Top rummy" is an awkward phrase to search, because it reads two ways at once. It could mean <em>the app called Top Rummy</em> &mdash; which is what this page is about. Or it could mean "which rummy app is best," a completely different question with no single answer, since "best" depends on what you're comparing (bonus size, table availability, how often it's actually online). If you typed "top rummy yono" hunting for a ranked list of rummy apps, the <a href="/blog/all-yono-rummy-games/" {LINK}>full All Yono rummy list</a> is closer to what you want. If you're after the specific app named Top Rummy, you're in the right place &mdash; here's what matters.</p>
 
       <div class="callout">
@@ -963,7 +963,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/rumble-rummy-apk-download.webp",
         "image_alt": "Rumble Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Rumble Rummy APK Download & Login Guide",
-        "published_date": "2026-07-12",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Rumble Rummy's promo codes don't sit still. The developer pushes out a new batch in rolling windows through the day &mdash; morning, afternoon, sometimes a third in the evening &mdash; and once a slot's code is claimed or the window closes, that code is gone. That's the main thing worth knowing before you install: check what's live <em>right now</em> rather than relying on anything screenshotted or forwarded, because by the time it reaches a group chat it's usually already stale. Here's how to get the app itself, log in, and actually catch a code while it's still active.</p>
 
       <div class="callout">
@@ -1012,7 +1012,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/jaiho-win-apk-download.webp",
         "image_alt": "Jaiho Win APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Jaiho Win APK Download & Login Guide",
-        "published_date": "2026-07-12",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Rummy tables move fast and expect your full attention &mdash; one dropped connection and a hand's gone. Jaiho Win sits in a different corner of the All Yono directory entirely: it's filed under Casual, not Rummy, which in practice means less riding on split-second timing and more room to just open it, play a round, and check out again. If you've been eyeing the rummy apps in this network but wanted something with a lower-pressure feel first, this is the one worth starting with.</p>
 
       <div class="callout">
@@ -1061,7 +1061,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/hindi-777-apk-download.webp",
         "image_alt": "Hindi 777 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Hindi 777 APK Download & Login Guide",
-        "published_date": "2026-07-13",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Hindi 777's current download domain includes the word "agent" &mdash; hindi777agent.me. That's worth explaining rather than glossing over, since apps in this category commonly distribute through a network of individual "agents" who onboard players locally, sometimes handling referrals or account setup personally. Using the link on this directory doesn't put you in a relationship with any specific agent &mdash; it's simply the current official download page, the same as any other app link in this network. If you've been approached separately by someone claiming to be a Hindi 777 "agent" offering to set things up for you directly, that's a different arrangement entirely from just downloading the app here, and worth treating with extra caution.</p>
       <p>The "Hindi" half of the name most likely signals a Hindi-language interface or Hindi-focused marketing, distinguishing it from other numbered slots apps in this directory that don't specify a language.</p>
 
@@ -1120,7 +1120,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/spin-gold-apk-download.webp",
         "image_alt": "Spin Gold APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Spin Gold APK Download & Login Guide",
-        "published_date": "2026-07-13",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>"Gold" as a product name usually implies a tier &mdash; Gold Membership sitting above Silver, a Gold Edition sitting above a standard one. Worth clarifying up front: there's no Spin Silver or Spin Bronze counterpart in the All Yono directory. Spin Gold is a standalone app with its own download and account, not one rung on a ladder. The name is branding meant to signal a premium feel rather than a description of an actual tier system you'd unlock or upgrade into.</p>
 
       <div class="callout">
@@ -1178,7 +1178,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/love-rummy-apk-download.webp",
         "image_alt": "Love Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Love Rummy APK Download & Login Guide",
-        "published_date": "2026-07-13",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>If you've been putting off trying Love Rummy because you're picturing a long signup process, that's not what's actually waiting for you. Download, install, phone number, OTP, done &mdash; most people are looking at their first table within a few minutes. The only step worth doing <em>before</em> you install is checking whether a promo code is live right now, since that's the one thing on a clock. Here's the fastest way through all of it.</p>
 
       <div class="callout">
@@ -1227,7 +1227,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/yono-777-apk-download.webp",
         "image_alt": "Yono 777 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Yono 777 APK Download & Login Guide",
-        "published_date": "2026-07-14",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Here's something worth knowing before you tap a download link: the actual domain hosting Yono 777's APK doesn't contain the word "yono" at all &mdash; it's registered as uono777.co, with a "u" instead of a "y." That's not a typo on this page and not a sign you've landed somewhere wrong. Developers in this space frequently register distribution domains that only loosely resemble the app's display name, partly because near-identical domain names get flagged or blocked faster than ones that are slightly off. If you were expecting the link to visibly say "yono," seeing something close-but-different is normal here, not a red flag on its own &mdash; what actually matters is whether the link came from the verified directory page rather than an unverified source.</p>
       <p>The "777" half of the name is more straightforward: three sevens is the single most recognizable jackpot symbol in slot machine history, going back to the earliest mechanical fruit machines. Naming a slots app "777" is about as generic a branding choice in this category as "Game Rummy" is for a card app &mdash; it signals the genre more than it identifies anything specific about the game itself.</p>
 
@@ -1286,7 +1286,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/bingo-101-apk-download.webp",
         "image_alt": "Bingo 101 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Bingo 101 APK Download & Login Guide",
-        "published_date": "2026-07-14",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>"101" as a suffix borrows directly from academic course naming &mdash; Biology 101, Economics 101 &mdash; shorthand for "the basics, no prior experience needed." Bingo 101 leans on the same convention, and it lines up with where the app actually sits in the All Yono directory: the Casual category, built for lighter, lower-pressure sessions rather than a live rummy table or a competitive slots grind. The name is doing real work here, signaling an easier entry point rather than just being a random number choice.</p>
 
       <div class="callout">
@@ -1344,7 +1344,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/boss-rummy-apk-download.webp",
         "image_alt": "Boss Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Boss Rummy APK Download & Login Guide",
-        "published_date": "2026-07-14",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>A name like Boss Rummy sets up an expectation &mdash; that once you're in, you're not fumbling through menus or guessing what to do next. That part's actually true, mostly because there isn't much to figure out: install the APK, verify your phone number, check what's on offer, and you're at a table. The only real decision on your end is timing it around whatever promo code happens to be live. Here's the full rundown.</p>
 
       <div class="callout">
@@ -1393,7 +1393,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/rummy888-apk-download.webp",
         "image_alt": "Rummy888 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Rummy888 APK Download & Login Guide",
-        "published_date": "2026-07-15",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>The "888" in Rummy888 isn't a version number or a player count &mdash; it's borrowed from a naming convention used across a lot of real-money gaming apps in this space, where 8 is treated as a lucky number. It's branding, not a spec. Once that's out of the way, Rummy888 works exactly like the rest of the rummy apps in the All Yono directory: install it, verify your number, and you're at a table within minutes. Here's the actual walkthrough.</p>
 
       <div class="callout">
@@ -1442,7 +1442,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/game-rummy-apk-download.webp",
         "image_alt": "Game Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Game Rummy APK Download & Login Guide",
-        "published_date": "2026-07-15",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Try searching just "game rummy" on its own and you'll mostly get generic results about rummy games in general &mdash; the name is too close to the category itself to point search engines at one specific app. That's the practical reason it almost always gets paired with "yono": it's the fastest way to tell Google you mean the specific app in the All Yono directory, not rummy as a genre. If that's how you landed here, you're after the right thing &mdash; here's how to get it installed.</p>
 
       <div class="callout">
@@ -1491,7 +1491,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/spin-101-apk-download.webp",
         "image_alt": "Spin 101 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Spin 101 APK Download & Login Guide",
-        "published_date": "2026-07-15",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Spin 101 and <a href="/blog/101z-apk-download/" {LINK}>101Z</a> both carry "101" in the name and both sit in the All Yono directory, which is exactly why searches for one often turn up mentions of the other. They're unrelated apps &mdash; Spin 101 is an Arcade-category quick-play game, while 101Z is a separate listing entirely, with its own developer, its own account system, and its own download link. If you landed here after seeing 101Z mentioned somewhere and want to make sure this page is about the right one: yes, this is specifically Spin 101.</p>
 
       <div class="callout">
@@ -1549,7 +1549,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/ok-rummy-apk-download.webp",
         "image_alt": "OK Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "OK Rummy APK Download & Login Guide",
-        "published_date": "2026-07-16",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Say "OK Rummy" out loud near a phone with voice search active and there's a decent chance it hears the first half as a wake command, not part of the app name &mdash; "OK" is one of the more overloaded two letters in mobile search. Typing it out avoids the confusion entirely, and pairing it with "yono" is the fastest way to land on the actual app rather than voice-search noise or generic rummy results. Once you're here, the rest is straightforward.</p>
 
       <div class="callout">
@@ -1598,7 +1598,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/rummy-ludo-apk-download.webp",
         "image_alt": "Rummy Ludo APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Rummy Ludo APK Download & Login Guide",
-        "published_date": "2026-07-16",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>The name pairs two genuinely different games &mdash; rummy is a card game, Ludo is a dice-and-board game &mdash; so it's fair to wonder if this app is some kind of hybrid. It isn't. Rummy Ludo is filed under the Rummy category in the All Yono directory, meaning it plays like the other card-table apps in that list, not like Ludo. The name is branding, not a description of the gameplay. With that settled, here's how to actually get it running.</p>
 
       <div class="callout">
@@ -1647,7 +1647,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/rummy-91-apk-download.webp",
         "image_alt": "Rummy 91 APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Rummy 91 APK Download & Login Guide",
-        "published_date": "2026-07-16",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>The "91" isn't arbitrary &mdash; it's the same 91 as India's international dialing code, a naming choice a lot of India-focused real-money apps lean on to signal exactly who they're built for. It's not a version number or a table-count reference, just branding aimed at Indian players specifically. Beyond that detail, Rummy 91 runs the same way as the other card apps in the All Yono directory. Here's the setup.</p>
 
       <div class="callout">
@@ -1696,7 +1696,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/abc-rummy-apk-download.webp",
         "image_alt": "ABC Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "ABC Rummy APK Download & Login Guide",
-        "published_date": "2026-07-17",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Open almost any list of All Yono rummy apps and ABC Rummy is sitting at the top. That's not a ranking, a recommendation, or a sign that it's the most popular &mdash; it's simply what alphabetical order does to a name starting with "A." Directories, comparison tables, and app-store category pages all tend to sort this way by default, which means ABC Rummy gets more visual real estate at the top of a scroll than apps further down the list, purely by coincidence of naming. Whether that's why you're reading this or you specifically searched for the app by name, the practical information is the same either way: an actual download link, a login process that takes a minute, and a promo code system worth understanding before you install anything.</p>
       <p>There's also a second, more literal reading of the name worth mentioning: "as easy as ABC" is a real idiom in English, and whether or not that was intentional on the developer's part, it fits &mdash; there's genuinely very little friction between installing this app and playing your first hand. No lengthy registration form, no email verification loop, no multi-step KYC before you can even see a table. That simplicity is worth knowing going in, because it's one of the more approachable entries in a category that can otherwise feel cluttered with near-identical apps.</p>
 
@@ -1754,7 +1754,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/gogo-rummy-apk-download.webp",
         "image_alt": "Gogo Rummy APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Gogo Rummy APK Download & Login Guide",
-        "published_date": "2026-07-17",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Doubling up a word for emphasis is a genuinely old naming trick &mdash; "go-go" dancers, "bye-bye," "night-night" &mdash; repetition reads as energetic and immediate in a way the single word doesn't quite manage on its own. Gogo Rummy leans on the same instinct: the name is built to feel quick and active before you've even opened the app. Whether or not that's the reason you're searching for it, the actual substance is the same as any other app in this category &mdash; a real download link, a login process, and a promo code system that rewards checking in rather than waiting.</p>
 
       <div class="callout">
@@ -1809,7 +1809,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/yono-slots-apk-download.webp",
         "image_alt": "Yono Slots APK download guide showing the official download link, login process, and promo code status for Indian users",
         "breadcrumb_label": "Yono Slots APK Download & Login Guide",
-        "published_date": "2026-07-17",
+        "published_date": "2026-07-10",
         "body_html": f'''<p>Among the rummy apps in this directory, Yono Rummy is the one that actually carries the site's own name rather than a separately branded title like Boss Rummy or Joy Rummy. The Slots category has the same pattern: 567 Slots, 789 Jackpots, Bet213 Slots, Jaiho91, Hindi 777, and Yono 777 all sit under Slots, but Yono Slots is the one that pairs the directory's name directly with the category itself. If you're trying to sort out which slots app is which across a fairly crowded list, this is the most literally-named one &mdash; worth knowing, though it doesn't make the app itself any different mechanically from its neighbors.</p>
 
       <div class="callout">
