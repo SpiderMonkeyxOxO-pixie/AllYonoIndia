@@ -120,17 +120,28 @@ FOOTER = '''<footer class="site-footer">
 
 def build_post(post):
     slug = post["slug"]
-    title = post["title"]
-    meta_title = post["meta_title"]
-    meta_desc = post["meta_description"]
-    keywords = post.get("keywords") or ""
-    eyebrow = post["eyebrow"]
+    title_raw = post["title"]
+    meta_title_raw = post["meta_title"]
+    meta_desc_raw = post["meta_description"]
+    keywords_raw = post.get("keywords") or ""
+    eyebrow_raw = post["eyebrow"]
+    breadcrumb_label_raw = post.get("breadcrumb_label") or post["title"]
     date = post["published_date"]
     canonical = f"https://allyonoindia.com/blog/{slug}/"
     img = f"https://allyonoindia.com{post['cover_image']}"
-    image_alt = post.get("image_alt") or title
-    breadcrumb_label = post.get("breadcrumb_label") or title
+    image_alt_raw = post.get("image_alt") or post["title"]
     faqs = [(f["question"], f["answer"]) for f in post.get("faqs", [])]
+
+    # HTML-escaped versions for interpolation into attributes/text content —
+    # JSON-LD blocks below use the *_raw versions instead, since json.dumps
+    # handles its own escaping and HTML entities would corrupt the JSON.
+    title = html.escape(title_raw)
+    meta_title = html.escape(meta_title_raw)
+    meta_desc = html.escape(meta_desc_raw)
+    keywords = html.escape(keywords_raw)
+    eyebrow = html.escape(eyebrow_raw)
+    breadcrumb_label = html.escape(breadcrumb_label_raw)
+    image_alt = html.escape(image_alt_raw)
 
     def plain_text(s):
         return html.unescape(re.sub(r"<[^>]+>", "", s))
@@ -149,14 +160,14 @@ def build_post(post):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoindia.com/"},
             {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://allyonoindia.com/blog/"},
-            {"@type": "ListItem", "position": 3, "name": breadcrumb_label, "item": canonical},
+            {"@type": "ListItem", "position": 3, "name": breadcrumb_label_raw, "item": canonical},
         ],
     }
     article_json = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": title,
-        "description": meta_desc,
+        "headline": title_raw,
+        "description": meta_desc_raw,
         "image": img,
         "datePublished": date,
         "dateModified": date,
