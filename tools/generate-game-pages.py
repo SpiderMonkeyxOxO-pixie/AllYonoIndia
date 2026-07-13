@@ -186,6 +186,16 @@ FOOTER = '''<footer class="site-footer">
 </nav>
 
 <script src="/assets/js/main.min.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "G-VGXGPH0EFT");
+</script>
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
 </body>
 </html>
 '''
@@ -229,16 +239,6 @@ def build_game_page(g, by_cat):
     return f'''<!DOCTYPE html>
 <html lang="en-IN">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag("js", new Date());
-
-  gtag("config", "G-VGXGPH0EFT");
-</script>
-<script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
@@ -369,16 +369,6 @@ def build_category_page(category, games_in_cat):
     return f'''<!DOCTYPE html>
 <html lang="en-IN">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag("js", new Date());
-
-  gtag("config", "G-VGXGPH0EFT");
-</script>
-<script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">

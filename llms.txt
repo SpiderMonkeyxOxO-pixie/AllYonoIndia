@@ -1,0 +1,33 @@
+# All Yono India
+
+> All Yono India (allyonoindia.com) is an independent directory for Indian mobile users, listing 52+ All Yono-branded game apps with APK download links, promo code status, and access notes. It is not affiliated with YONO SBI, the State Bank of India, or any game developer — game names and icons are shown for identification only.
+
+All content is updated in IST. The site does not require an account, does not host APK files itself (it links to third-party download pages), and never collects OTPs, passwords, or payment details.
+
+## Main Pages
+
+- [Home](https://allyonoindia.com/): Directory overview and featured games.
+- [All Yono Games](https://allyonoindia.com/all-yono-games/): Full directory of 52+ games with download links and access notes.
+- [Promo Code](https://allyonoindia.com/promo-code/): Morning, afternoon, and evening promo code status per game.
+- [Blog](https://allyonoindia.com/blog/): Guides and access notes.
+
+## Game Categories
+
+- [Rummy Games](https://allyonoindia.com/all-yono-games/rummy/)
+- [Arcade Games](https://allyonoindia.com/all-yono-games/arcade/)
+
+## Guides
+
+- [All Yono Games List 2026](https://allyonoindia.com/blog/all-yono-games-list/)
+- [How All Yono Promo Codes Work](https://allyonoindia.com/blog/how-all-yono-promo-codes-work/)
+- [Spot a Fake All Yono App Scam](https://allyonoindia.com/blog/spot-fake-all-yono-app-scam/)
+- [Is Online Rummy Legal in India](https://allyonoindia.com/blog/is-online-rummy-legal-in-india/)
+- [All Yono Login Explained](https://allyonoindia.com/blog/all-yono-login-explained/)
+- [All Yono App Permissions Explained](https://allyonoindia.com/blog/all-yono-app-permissions-explained/)
+
+## Policies
+
+- [Disclaimer](https://allyonoindia.com/disclaimer/): Independent-directory notice, age restriction, and state-wise real-money gaming availability.
+- [Privacy Policy](https://allyonoindia.com/privacy-policy/)
+- [Terms](https://allyonoindia.com/terms/)
+- [Contact](https://allyonoindia.com/contact/)
