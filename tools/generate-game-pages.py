@@ -262,6 +262,7 @@ def build_game_page(g, by_cat):
 
 <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
 <link rel="apple-touch-icon" href="/assets/icons/logo.webp">
+<link rel="preconnect" href="https://api.allyonoindia.com">
 <link rel="preload" href="/assets/fonts/goldman-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/goldman-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/style.min.css">
@@ -392,6 +393,7 @@ def build_category_page(category, games_in_cat):
 
 <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
 <link rel="apple-touch-icon" href="/assets/icons/logo.webp">
+<link rel="preconnect" href="https://api.allyonoindia.com">
 <link rel="preload" href="/assets/fonts/goldman-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/goldman-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/style.min.css">
