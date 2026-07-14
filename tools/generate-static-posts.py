@@ -181,7 +181,11 @@ def build_post(post):
         "image": img,
         "datePublished": date,
         "dateModified": date,
-        "author": {"@type": "Organization", "name": "All Yono India", "url": "https://allyonoindia.com/"},
+        "author": {
+            "@type": "Person",
+            "name": "Rashmika Singh",
+            "url": "https://allyonoindia.com/author/rashmika-singh/",
+        },
         "publisher": {
             "@type": "Organization",
             "name": "All Yono India",
@@ -259,7 +263,7 @@ def build_post(post):
     <div class="content-page">
       <span class="eyebrow">{eyebrow}</span>
       <h1>{title}</h1>
-      <p class="footer-note" style="margin-top:-4px">Last Reviewed: {date_human(date)}</p>
+      <p class="footer-note" style="margin-top:-4px">Last Reviewed: {date_human(date)} &middot; Written by <a href="/author/rashmika-singh/" style="color:var(--cyan);font-weight:700">Rashmika Singh</a>, Founder of All Yono India</p>
 
       <img src="{post['cover_image']}" alt="{image_alt}" width="1200" height="675" loading="eager" style="margin:var(--space-4) 0">
 
