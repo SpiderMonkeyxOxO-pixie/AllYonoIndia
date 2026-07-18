@@ -18,6 +18,33 @@
     });
   }
 
+  /* Coming-soon countdown timers, e.g. the DhanGame promo card (works for any
+     future upcoming-game card as long as it follows the same markup) */
+  var countdowns = document.querySelectorAll("[data-countdown]");
+  if (countdowns.length) {
+    var pad2 = function (n) { return n < 10 ? "0" + n : String(n); };
+    var tickCountdowns = function () {
+      countdowns.forEach(function (el) {
+        var target = new Date(el.getAttribute("data-countdown")).getTime();
+        var diff = Math.max(0, target - Date.now());
+        var days = Math.floor(diff / 86400000);
+        var hours = Math.floor((diff % 86400000) / 3600000);
+        var minutes = Math.floor((diff % 3600000) / 60000);
+        var seconds = Math.floor((diff % 60000) / 1000);
+        var setUnit = function (unit, value) {
+          var node = el.querySelector('[data-unit="' + unit + '"]');
+          if (node) node.textContent = pad2(value);
+        };
+        setUnit("days", days);
+        setUnit("hours", hours);
+        setUnit("minutes", minutes);
+        setUnit("seconds", seconds);
+      });
+    };
+    tickCountdowns();
+    setInterval(tickCountdowns, 1000);
+  }
+
   /* Copy promo code buttons (event delegation so it also works on rows rendered later from JSON) */
   document.addEventListener("click", function (e) {
     var btn = e.target.closest(".copy-btn[data-code]");
