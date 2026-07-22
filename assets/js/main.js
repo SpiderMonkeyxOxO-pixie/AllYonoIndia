@@ -374,6 +374,19 @@
       .then(function (text) { return parsePromoText(text); });
   }
 
+  /* Static coming-soon row for games that aren't live yet (not in Strapi/promo-codes.txt),
+     so they still surface at the top of the Promo Code page ahead of launch. */
+  function buildComingSoonPromoRow() {
+    var soon = '<span class="status-pill status-soon">Coming Soon</span>';
+    return '<tr id="dhan-game" data-name="DhanGame" data-status="soon">' +
+      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/dhan-game.webp" alt="DhanGame logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">DhanGame</span></td>' +
+      '<td data-label="Morning">' + soon + '</td>' +
+      '<td data-label="Afternoon">' + soon + '</td>' +
+      '<td data-label="Evening">' + soon + '</td>' +
+      '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/dhan-game/">View Game</a></td>' +
+      '</tr>';
+  }
+
   var promoTableBody = document.getElementById("promoTableBody");
   var promoPreviewBody = document.getElementById("promoPreviewBody");
 
@@ -390,7 +403,7 @@
         });
 
         if (promoTableBody) {
-          promoTableBody.innerHTML = games.map(buildPromoRow).join("");
+          promoTableBody.innerHTML = buildComingSoonPromoRow() + games.map(buildPromoRow).join("");
           applyPromoFilters();
           if (window.location.hash) {
             var target = document.getElementById(window.location.hash.slice(1));
