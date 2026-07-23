@@ -18,8 +18,8 @@
     });
   }
 
-  /* Coming-soon countdown timers, e.g. the DhanGame promo card (works for any
-     future upcoming-game card as long as it follows the same markup) */
+  /* Coming-soon countdown timers for upcoming-game cards, e.g. a future
+     unreleased-title card that follows the same [data-countdown] markup */
   var countdowns = document.querySelectorAll("[data-countdown]");
   if (countdowns.length) {
     var pad2 = function (n) { return n < 10 ? "0" + n : String(n); };
@@ -374,15 +374,15 @@
       .then(function (text) { return parsePromoText(text); });
   }
 
-  /* Static coming-soon row for games that aren't live yet (not in Strapi/promo-codes.txt),
-     so they still surface at the top of the Promo Code page ahead of launch. */
-  function buildComingSoonPromoRow() {
-    var soon = '<span class="status-pill status-soon">Coming Soon</span>';
-    return '<tr id="dhan-game" data-name="DhanGame" data-status="soon">' +
+  /* Static row for DhanGame, which just launched and isn't in Strapi/promo-codes.txt yet,
+     so it still surfaces at the top of the Promo Code page ahead of the next CMS sync. */
+  function buildDhanGameRow() {
+    var checking = '<span class="status-pill status-checking">Checking</span>';
+    return '<tr id="dhan-game" data-name="DhanGame" data-status="waiting">' +
       '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/dhan-game.webp" alt="DhanGame logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">DhanGame</span></td>' +
-      '<td data-label="Morning">' + soon + '</td>' +
-      '<td data-label="Afternoon">' + soon + '</td>' +
-      '<td data-label="Evening">' + soon + '</td>' +
+      '<td data-label="Morning">' + checking + '</td>' +
+      '<td data-label="Afternoon">' + checking + '</td>' +
+      '<td data-label="Evening">' + checking + '</td>' +
       '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/dhan-game/">View Game</a></td>' +
       '</tr>';
   }
@@ -403,7 +403,7 @@
         });
 
         if (promoTableBody) {
-          promoTableBody.innerHTML = buildComingSoonPromoRow() + games.map(buildPromoRow).join("");
+          promoTableBody.innerHTML = buildDhanGameRow() + games.map(buildPromoRow).join("");
           applyPromoFilters();
           if (window.location.hash) {
             var target = document.getElementById(window.location.hash.slice(1));
