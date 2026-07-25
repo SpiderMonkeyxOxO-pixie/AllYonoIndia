@@ -387,6 +387,19 @@
       '</tr>';
   }
 
+  /* Static row for Win Rummy, a coming-soon title not in Strapi yet — same pattern as
+     buildDhanGameRow() above, but for a game that hasn't launched at all. */
+  function buildWinRummyRow() {
+    var soon = '<span class="status-pill status-soon">Coming Soon</span>';
+    return '<tr id="win-rummy" data-name="Win Rummy" data-status="soon">' +
+      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/win-rummy.webp" alt="Win Rummy logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">Win Rummy</span></td>' +
+      '<td data-label="Morning">' + soon + '</td>' +
+      '<td data-label="Afternoon">' + soon + '</td>' +
+      '<td data-label="Evening">' + soon + '</td>' +
+      '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/win-rummy/">View Game</a></td>' +
+      '</tr>';
+  }
+
   var promoTableBody = document.getElementById("promoTableBody");
   var promoPreviewBody = document.getElementById("promoPreviewBody");
 
@@ -403,7 +416,7 @@
         });
 
         if (promoTableBody) {
-          promoTableBody.innerHTML = buildDhanGameRow() + games.map(buildPromoRow).join("");
+          promoTableBody.innerHTML = buildWinRummyRow() + buildDhanGameRow() + games.map(buildPromoRow).join("");
           applyPromoFilters();
           if (window.location.hash) {
             var target = document.getElementById(window.location.hash.slice(1));
