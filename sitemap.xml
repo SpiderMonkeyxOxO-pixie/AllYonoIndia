@@ -151,6 +151,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://allyonoindia.com/all-yono-games/win-rummy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://allyonoindia.com/all-yono-games/game-rummy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -482,6 +487,11 @@
   </url>
   <url>
     <loc>https://allyonoindia.com/blog/dhan-game-welcome-bonus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://allyonoindia.com/blog/win-rummy-india-guide/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
