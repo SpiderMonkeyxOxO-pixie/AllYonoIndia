@@ -387,15 +387,15 @@
       '</tr>';
   }
 
-  /* Static row for Win Rummy, a coming-soon title not in Strapi yet — same pattern as
-     buildDhanGameRow() above, but for a game that hasn't launched at all. */
+  /* Static row for Win Rummy, which just launched and isn't in Strapi/promo-codes.txt yet,
+     so it still surfaces at the top of the Promo Code page ahead of the next CMS sync. */
   function buildWinRummyRow() {
-    var soon = '<span class="status-pill status-soon">Coming Soon</span>';
-    return '<tr id="win-rummy" data-name="Win Rummy" data-status="soon">' +
+    var checking = '<span class="status-pill status-checking">Checking</span>';
+    return '<tr id="win-rummy" data-name="Win Rummy" data-status="waiting">' +
       '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/win-rummy.webp" alt="Win Rummy logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">Win Rummy</span></td>' +
-      '<td data-label="Morning">' + soon + '</td>' +
-      '<td data-label="Afternoon">' + soon + '</td>' +
-      '<td data-label="Evening">' + soon + '</td>' +
+      '<td data-label="Morning">' + checking + '</td>' +
+      '<td data-label="Afternoon">' + checking + '</td>' +
+      '<td data-label="Evening">' + checking + '</td>' +
       '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/win-rummy/">View Game</a></td>' +
       '</tr>';
   }
