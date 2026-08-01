@@ -1100,7 +1100,7 @@ NEW_POSTS = [
         "breadcrumb_label": "Yono 777 APK Download & Login Guide",
         "published_date": "2026-07-17",
         "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
-        <strong>Quick answer:</strong> Yono 777's actual download domain doesn't contain the word "yono" at all &mdash; it's registered as uono777.co, a "u" instead of a "y." That's normal for this network, not a red flag. Get the current APK from the <a href="/all-yono-games/yono-777/" {LINK}>Yono 777 page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+        <strong>Quick answer:</strong> Yono 777's actual download domain doesn't contain the word "yono" at all &mdash; it's registered as uono777.xyz, a "u" instead of a "y." That's normal for this network, not a red flag. Get the current APK from the <a href="/all-yono-games/yono-777/" {LINK}>Yono 777 page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
       </div>
 
       <h2>Key Takeaways</h2>
@@ -1108,7 +1108,7 @@ NEW_POSTS = [
         <thead><tr><th>What</th><th>Details</th></tr></thead>
         <tbody>
           <tr><td>Category</td><td>Slots (spin-reel, not a card game)</td></tr>
-          <tr><td>Current download domain</td><td>uono777.co &mdash; note the "u," not "y"</td></tr>
+          <tr><td>Current download domain</td><td>uono777.xyz &mdash; note the "u," not "y"</td></tr>
           <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
           <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated daily</td></tr>
           <tr><td>Why doesn't the domain say "yono"?</td><td>Common pattern &mdash; developers often register loosely-matching distribution domains</td></tr>
@@ -1120,11 +1120,11 @@ NEW_POSTS = [
       </div>
 
       <h2>Why Doesn't the Yono 777 Domain Say "Yono"?</h2>
-      <p>The actual domain hosting Yono 777's APK doesn't contain the word "yono" at all &mdash; it's registered as uono777.co, with a "u" instead of a "y." That's not a typo on this page and not a sign you've landed somewhere wrong. Developers in this space frequently register distribution domains that only loosely resemble the app's display name, partly because near-identical domain names get flagged or blocked faster than ones that are slightly off. What actually matters is whether the link came from the verified directory page rather than an unverified source.</p>
+      <p>The actual domain hosting Yono 777's APK doesn't contain the word "yono" at all &mdash; it's registered as uono777.xyz, with a "u" instead of a "y." That's not a typo on this page and not a sign you've landed somewhere wrong. Developers in this space frequently register distribution domains that only loosely resemble the app's display name, partly because near-identical domain names get flagged or blocked faster than ones that are slightly off. What actually matters is whether the link came from the verified directory page rather than an unverified source.</p>
       <p>The "777" half of the name is more straightforward: three sevens is the single most recognizable jackpot symbol in slot machine history. Naming a slots app "777" is about as generic a branding choice in this category as "Game Rummy" is for a card app &mdash; it signals the genre more than it identifies anything specific about the game itself.</p>
 
       <h2>How Do I Download the Yono 777 APK?</h2>
-      <p>Use the Download URL button on the <a href="/all-yono-games/yono-777/" {LINK}>Yono 777 directory page</a> &mdash; the current link routes through uono777.co. Like every other download link across this network, it isn't permanent &mdash; the developer periodically reissues it, sometimes with a fresh tracking code, so a link forwarded in a chat a few weeks back has real odds of being dead today.</p>
+      <p>Use the Download URL button on the <a href="/all-yono-games/yono-777/" {LINK}>Yono 777 directory page</a> &mdash; the current link routes through uono777.xyz. Like every other download link across this network, it isn't permanent &mdash; the developer periodically reissues it, sometimes with a fresh tracking code, so a link forwarded in a chat a few weeks back has real odds of being dead today.</p>
       <p>Installing the APK follows the standard process for anything distributed outside the Play Store: your phone will show a security prompt blocking "installs from unknown sources," which is routine Android behavior, not anything specific to Yono 777. Resolve it via Settings &rarr; Security (or Apps &rarr; Special app access &rarr; Install unknown apps on newer Android versions), granting permission to whichever app handled the download.</p>
 
       <h2>How Does Yono 777 Login Work?</h2>
