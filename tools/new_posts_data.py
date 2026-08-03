@@ -270,7 +270,7 @@ NEW_POSTS = [
       <p>Jaiho Arcade follows the same rolling-release schedule used across this network &mdash; typically a morning batch and an afternoon batch, sometimes a third later in the day. Codes tend to be single-use, so the <a href="/promo-code/#jaiho-arcade" {LINK}>Promo Code page</a> is the only version of this information worth trusting; a code copied from an older post has likely already been claimed. If a code is showing for the current slot, redeem it as soon as you're logged in rather than saving it for later.</p>
 
       <h2>Its Place Among Other Arcade Apps</h2>
-      <p>Jaiho Arcade sits in the Arcade category alongside Jaiho Spin, Slot Spin, Spin 101, and Spin Crush &mdash; a lineup that leans on quick-play mechanics rather than either card tables or classic slot reels. Each is independently developed and operated, with its own account system and promo pool, so installing Jaiho Arcade doesn't touch anything you might have running with the others. The <a href="/all-yono-games/arcade/" {LINK}>All Yono Arcade Games</a> page lists the full category with direct download buttons if you're comparing a few before deciding.</p>
+      <p>Jaiho Arcade sits in the Arcade category alongside Jaiho Spin, Slot Spin, and Spin 101 &mdash; a lineup that leans on quick-play mechanics rather than either card tables or classic slot reels. Each is independently developed and operated, with its own account system and promo pool, so installing Jaiho Arcade doesn't touch anything you might have running with the others. The <a href="/all-yono-games/arcade/" {LINK}>All Yono Arcade Games</a> page lists the full category with direct download buttons if you're comparing a few before deciding.</p>
 
       <h2>What to Expect Once You're In</h2>
       <p>Because Jaiho Arcade rounds are quick rather than tied to a live opponent, connection concerns behave differently than a rummy table. There's no shared match state with another player to lose if your connection drops, but a poor connection can still interrupt a round from loading or cause results to fail to register properly &mdash; more likely on unstable mobile data than steady Wi-Fi.</p>
@@ -291,7 +291,7 @@ NEW_POSTS = [
       <!--FAQS_LIST-->''',
         "faqs": [
             {"question": "How is Jaiho Arcade different from the rummy and slots apps in this directory?", "answer": "It's built around short, quick-play rounds rather than live card tables (Rummy) or reel-based spins against the house (Slots) — a faster, more casual pace by design."},
-            {"question": "Is Jaiho Arcade connected to Jaiho Spin, Slot Spin, Spin 101, or Spin Crush?", "answer": "No. Each is independently developed and operated despite sitting in the same Arcade category — no shared accounts, ownership, or promo codes."},
+            {"question": "Is Jaiho Arcade connected to Jaiho Spin, Slot Spin, or Spin 101?", "answer": "No. Each is independently developed and operated despite sitting in the same Arcade category — no shared accounts, ownership, or promo codes."},
             {"question": "How do I check if a Jaiho Arcade promo code is available right now?", "answer": "Check the Promo Code page for the current slot's status. A visible code is redeemable immediately; older codes from screenshots are usually already claimed."},
             {"question": "What happens if my connection drops during a Jaiho Arcade round?", "answer": "There's no live opponent involved, so there's no shared match to forfeit, but a weak connection can still interrupt a round from loading properly. Stable Wi-Fi avoids this."},
         ],
@@ -2805,61 +2805,6 @@ NEW_POSTS = [
             {"question": "How do I download the Saga Slots APK?", "answer": "Use the Download URL button on the Saga Slots directory page — the current build is hosted at sagaslots23.com, and that address gets reissued periodically with a new tracking code."},
             {"question": "How does Saga Slots login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
             {"question": "Is there a Saga Slots promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
-        ],
-    },
-    {
-        "title": "Spin Crush APK Download 2026: A Casual-Style Name in Arcade",
-        "slug": "spin-crush-apk-download",
-        "meta_title": "Spin Crush APK Download 2026: Arcade Category Fit",
-        "meta_description": "Spin Crush APK download link, login steps, and promo code status — plus how the \"Crush\" name fits its Arcade category placement.",
-        "keywords": "spin crush apk, spin crush apk download, spin crush yono, spin crush login, spin crush promo code",
-        "eyebrow": "Arcade Games",
-        "cover_image": "/assets/images/og-cover.jpg",
-        "image_alt": "Spin Crush APK download guide showing the official download link, login process, and promo code status for Indian users",
-        "breadcrumb_label": "Spin Crush APK Download Guide",
-        "published_date": "2026-08-13",
-        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
-        <strong>Quick answer:</strong> Spin Crush is an Arcade app in the All Yono lineup &mdash; "Crush" echoes casual match-style game branding, common across quick-play mobile apps. Get the current APK from the <a href="/all-yono-games/spin-crush/" {LINK}>Spin Crush page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
-      </div>
-
-      <h2>Key Takeaways</h2>
-      <table>
-        <thead><tr><th>What</th><th>Details</th></tr></thead>
-        <tbody>
-          <tr><td>Category</td><td>Arcade</td></tr>
-          <tr><td>Current download domain</td><td>See the current listed link on the directory page</td></tr>
-          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
-          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
-          <tr><td>Often confused with</td><td>Jaiho Arcade, Jaiho Spin</td></tr>
-        </tbody>
-      </table>
-
-      <div class="callout">
-        All Yono India is an independent directory. It is not the developer, publisher, or operator of Spin Crush. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
-      </div>
-
-      <h2>What Does "Crush" Signal in Spin Crush?</h2>
-      <p>"Crush" is a common naming cue in casual and match-style mobile games &mdash; it suggests quick, satisfying rounds rather than describing a specific mechanic unique to this app. Paired with "Spin," it fits the Arcade category this app is filed under on this directory, alongside Jaiho Arcade and Jaiho Spin.</p>
-
-      <h2>How Do I Download the Spin Crush APK?</h2>
-      <p>Use the Download URL button on the <a href="/all-yono-games/spin-crush/" {LINK}>Spin Crush directory page</a> for the current link. As with every app in this network, that address isn't permanent and gets reissued periodically with a new tracking code, so always confirm against the live listing rather than an older saved link.</p>
-
-      <h2>How Does Spin Crush Login Work?</h2>
-      <p>Login happens entirely inside the app, not on this website. Open Spin Crush after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
-
-      <h2>Is There a Spin Crush Promo Code Today?</h2>
-      <p>Check the <a href="/promo-code/#spin-crush" {LINK}>Spin Crush entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
-
-      <h2>Is Spin Crush the Same as Jaiho Arcade or Jaiho Spin?</h2>
-      <p>No. All three share the Arcade category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
-
-      <h2>FAQs About Spin Crush</h2>
-      <!--FAQS_LIST-->''',
-        "faqs": [
-            {"question": "What does \"Crush\" mean in Spin Crush?", "answer": "It's a common naming cue in casual and match-style mobile games, suggesting quick, satisfying rounds rather than a specific unique mechanic."},
-            {"question": "How do I download the Spin Crush APK?", "answer": "Use the Download URL button on the Spin Crush directory page for the current link — like every app in this network, the address gets reissued periodically with a new tracking code."},
-            {"question": "How does Spin Crush login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
-            {"question": "Is there a Spin Crush promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Checking\" means it's still being confirmed."},
         ],
     },
     {

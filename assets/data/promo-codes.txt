@@ -218,11 +218,6 @@ Morning code: slotswinner.vip
 Afternoon code: Waiting to Release
 Evening code: Waiting to Release
 
-Platform name: Spin Crush
-Morning code: Waiting to Release
-Afternoon code: Waiting to Release
-Evening code: Waiting to Release
-
 Platform name: Spin Gold
 Morning code: SPINGOLDWEEKLY&MONTHLYCARD
 Afternoon code: Waiting to Release
