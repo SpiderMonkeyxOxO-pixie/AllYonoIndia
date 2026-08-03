@@ -1,8 +1,8 @@
 #!/bin/bash
-# One-command publish: pulls latest Strapi content into static pages and
-# pushes the result. Meant to be run directly on the live VPS, inside
-# /www/wwwroot/allyonoindia.com — there is no separate deploy step because
-# this directory IS the live site.
+# One-command publish: regenerates static game/blog pages from the local
+# new_games_data.py / new_posts_data.py files and pushes the result. Meant to
+# be run directly on the live VPS, inside /www/wwwroot/allyonoindia.com —
+# there is no separate deploy step because this directory IS the live site.
 #
 # Usage (on the VPS):
 #   cd /www/wwwroot/allyonoindia.com
@@ -11,10 +11,13 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 echo "Regenerating game pages..."
-python3 tools/generate-game-pages.py
+python3 tools/generate-static-games.py
 
 echo "Regenerating blog pages..."
-python3 tools/generate-blog-pages.py
+python3 tools/generate-static-posts.py
+
+echo "Rendering promo code tables..."
+python3 tools/render-promo-table.py
 
 chown -R www:www . || true
 
@@ -24,7 +27,7 @@ if git diff --quiet && git diff --cached --quiet; then
 fi
 
 git add -A
-git commit -m "Publish: regenerate game/blog pages from Strapi"
+git commit -m "Publish: regenerate game/blog pages"
 git push
 
 echo "Published."

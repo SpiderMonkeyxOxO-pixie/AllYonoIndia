@@ -37,3 +37,11 @@ RULES
 
 That's it. Both the homepage preview and the full Promo Code page read from this one
 file automatically — you never need to touch any .html file for daily code updates.
+
+Codes still show up live the instant you save this file — the page fetches it directly
+in the visitor's browser, same as always. Separately, run `python3 tools/render-promo-table.py`
+(or `bash tools/publish.sh`, which does this plus the game/blog regeneration) whenever
+convenient — once a day is plenty — to bake the current codes into the page's raw HTML
+too, so search engines see real content instead of a "Loading..." placeholder. Skipping
+it for a few updates doesn't break anything for visitors, it just means Google sees a
+slightly older snapshot of the table until you next run it.
