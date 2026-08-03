@@ -2314,4 +2314,607 @@ NEW_POSTS = [
             {"question": "What happens if my connection drops while playing Neta VIP?", "answer": "A weak connection can interrupt the app from loading properly, though there's no live opponent involved so there's no shared match state to lose."},
         ],
     },
+
+    {
+        "title": "567 Slots APK Download 2026: Another Number, Not a Ranking",
+        "slug": "567-slots-apk-download",
+        "meta_title": "567 Slots APK Download 2026: Another Numbered Slots App",
+        "meta_description": "567 Slots APK download link, login steps, and promo code status — plus why the number in the name isn't an odds figure or ranking.",
+        "keywords": "567 slots apk, 567 slots apk download, 567 slots yono, 567 slots login, 567 slots promo code",
+        "eyebrow": "Slots Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "567 Slots APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "567 Slots APK Download Guide",
+        "published_date": "2026-08-04",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> 567 Slots is a spin-reel app in the All Yono lineup &mdash; the "567" is a brand name, not a payout ratio or ranking. Get the current APK from the <a href="/all-yono-games/567-slots/" {LINK}>567 Slots page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Slots</td></tr>
+          <tr><td>Current download domain</td><td>567slots66.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>789 Jackpots, Bet213 Slots</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of 567 Slots. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Does the "567" in 567 Slots Mean Anything?</h2>
+      <p>Not in the sense of odds, a payout rate, or a ranking &mdash; it's a brand name, the same way a sequence of digits shows up in plenty of unrelated product names. Sequential or memorable digit strings are common across this directory's Slots category (789 Jackpots is another example); they function as identity, not information about how a game pays out.</p>
+
+      <h2>How Do I Download the 567 Slots APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/567-slots/" {LINK}>567 Slots directory page</a> &mdash; the current build is hosted at 567slots66.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today. Installing the APK follows the standard process for anything distributed outside the Play Store: your phone will show a security prompt blocking "installs from unknown sources," which is routine Android behavior, not anything specific to 567 Slots.</p>
+
+      <h2>How Does 567 Slots Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open 567 Slots after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a 567 Slots Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#567-slots" {LINK}>567 Slots entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting. If a real code hasn't been issued for a given window, the slot reads "Waiting to Release" rather than showing an invented placeholder.</p>
+
+      <h2>Is 567 Slots the Same as 789 Jackpots or Bet213 Slots?</h2>
+      <p>No. All three share the Slots category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes. Installing 567 Slots has no effect on any other All Yono app.</p>
+
+      <h2>FAQs About 567 Slots</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Does the \"567\" in 567 Slots mean anything specific?", "answer": "No — it's a brand name, not an odds figure or ranking. Numbered names like this are common across the All Yono Slots category and function the same way a company name does."},
+            {"question": "How do I download the 567 Slots APK?", "answer": "Use the Download URL button on the 567 Slots directory page — the current build is hosted at 567slots66.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does 567 Slots login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a 567 Slots promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "Yono Games APK Download 2026: Not the Same as the Directory",
+        "slug": "yono-games-apk-download",
+        "meta_title": "Yono Games APK Download 2026: Not This Directory Itself",
+        "meta_description": "Yono Games APK download link, login steps, and promo code status — and why the app's name isn't the same thing as this All Yono directory.",
+        "keywords": "yono games apk, yono games apk download, yono games login, yono games promo code, yono games app",
+        "eyebrow": "Card Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Yono Games APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Yono Games APK Download Guide",
+        "published_date": "2026-08-05",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Yono Games is a specific card-games app in the All Yono lineup &mdash; not the same thing as "All Yono Games," the name of this entire directory. Get the current APK from the <a href="/all-yono-games/yono-games/" {LINK}>Yono Games page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Card Games</td></tr>
+          <tr><td>Current download domain</td><td>yonogamesbonus.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>The "All Yono Games" directory name itself, 101Z, 777 Game</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Yono Games. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Is "Yono Games" the Same Thing as This Directory?</h2>
+      <p>No, and this is worth spelling out clearly because the naming overlap is real. "All Yono Games" is the term this entire site uses to describe its full 52+-app directory &mdash; the same way "All Yono Store" is used elsewhere on this site. Yono Games, without the "All," is one specific card-games app listed inside that directory, with its own developer, download link, and account system, unrelated to the directory's own branding beyond sharing part of the name. If you're looking for the full list of every app, see the <a href="/all-yono-games/" {LINK}>All Yono Games directory</a> instead; if you specifically want this one app, you're in the right place.</p>
+
+      <h2>How Do I Download the Yono Games APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/yono-games/" {LINK}>Yono Games directory page</a> &mdash; the current build is hosted at yonogamesbonus.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Yono Games Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Yono Games after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Yono Games Promo Code Right Now?</h2>
+      <p>Check the <a href="/promo-code/#yono-games" {LINK}>Yono Games entry on the Promo Code page</a> for the current status. If a real code hasn't been issued for that window, the slot reads "Waiting to Release" rather than an invented placeholder.</p>
+
+      <h2>Is Yono Games the Same as 101Z or 777 Game?</h2>
+      <p>No. Yono Games shares the Card Games category with 101Z and 777 Game, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Yono Games</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Is \"Yono Games\" the same thing as this directory?", "answer": "No. \"All Yono Games\" refers to this entire directory of 52+ apps. Yono Games, without the \"All,\" is one specific card-games app listed inside it, with its own developer and account system."},
+            {"question": "How do I download the Yono Games APK?", "answer": "Use the Download URL button on the Yono Games directory page — the current build is hosted at yonogamesbonus.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Yono Games login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Yono Games promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "Rummy77 APK Download 2026: What the \"77\" Signals",
+        "slug": "rummy77-apk-download",
+        "meta_title": "Rummy77 APK Download 2026: What the \"77\" Signals",
+        "meta_description": "Rummy77 APK download link, login steps, and promo code status — plus how the numbered name fits the wider rummy-app naming pattern.",
+        "keywords": "rummy77 apk, rummy77 apk download, rummy 77 yono, rummy77 login, rummy77 promo code",
+        "eyebrow": "Rummy Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Rummy77 APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Rummy77 APK Download Guide",
+        "published_date": "2026-08-06",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Rummy77 is a rummy-category app in the All Yono lineup &mdash; the "77" is a brand suffix, following the same numbered-naming pattern as other rummy apps in this directory. Get the current APK from the <a href="/all-yono-games/rummy77/" {LINK}>Rummy77 page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Rummy</td></tr>
+          <tr><td>Current download domain</td><td>rummy77a.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>ABC Rummy, Boss Rummy, Rummy888, Rummy 91</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Rummy77. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does the "77" in Rummy77 Mean?</h2>
+      <p>It's a brand suffix, not a version number, table count, or odds figure. Numbered rummy names are common in this directory &mdash; Rummy888 and Rummy 91 follow the same convention &mdash; and each number functions as identity rather than a claim about the game itself. Rummy77 is a separate app from those two, despite the shared naming style.</p>
+
+      <h2>How Do I Download the Rummy77 APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/rummy77/" {LINK}>Rummy77 directory page</a> &mdash; the current build is hosted at rummy77a.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Rummy77 Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Rummy77 after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Rummy77 Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#rummy77" {LINK}>Rummy77 entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Rummy77 the Same as ABC Rummy or Boss Rummy?</h2>
+      <p>No. Rummy77 shares the Rummy category with ABC Rummy and Boss Rummy, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Rummy77</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does the \"77\" in Rummy77 mean?", "answer": "It's a brand suffix, not a version number or odds figure. Numbered rummy names like this are common across the directory (Rummy888, Rummy 91) and each functions as identity, not information about the game."},
+            {"question": "How do I download the Rummy77 APK?", "answer": "Use the Download URL button on the Rummy77 directory page — the current build is hosted at rummy77a.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Rummy77 login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Rummy77 promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "Bet213 Slots APK Download 2026: What \"213\" Signals",
+        "slug": "bet213-slots-apk-download",
+        "meta_title": "Bet213 Slots APK Download 2026: What \"213\" Signals",
+        "meta_description": "Bet213 Slots APK download link, login steps, and promo code status — plus what the \"213\" in the name actually signals about this slots app.",
+        "keywords": "bet213 slots apk, bet213 apk download, bet213 slots yono, bet213 login, bet213 promo code",
+        "eyebrow": "Slots Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Bet213 Slots APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Bet213 Slots APK Download Guide",
+        "published_date": "2026-08-07",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Bet213 Slots is a spin-reel app in the All Yono lineup &mdash; "213" is a brand number, not an odds figure or bet-size requirement. Get the current APK from the <a href="/all-yono-games/bet213-slots/" {LINK}>Bet213 Slots page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Slots</td></tr>
+          <tr><td>Current download domain</td><td>bet213app.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>567 Slots, 789 Jackpots</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Bet213 Slots. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does "213" in Bet213 Slots Mean?</h2>
+      <p>Nothing tied to betting limits, odds, or a minimum stake &mdash; it's a brand number, the same way any digit string can be used in a product name without encoding information about it. Treat "Bet213" as a name to recognize, not a spec sheet for how the app plays.</p>
+
+      <h2>How Do I Download the Bet213 Slots APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/bet213-slots/" {LINK}>Bet213 Slots directory page</a> &mdash; the current build is hosted at bet213app.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Bet213 Slots Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Bet213 Slots after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Bet213 Slots Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#bet213-slots" {LINK}>Bet213 Slots entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Bet213 Slots the Same as 567 Slots or 789 Jackpots?</h2>
+      <p>No. All three share the Slots category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Bet213 Slots</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does \"213\" in Bet213 Slots mean?", "answer": "Nothing tied to betting limits or odds — it's a brand number, the same way a digit string can be used in a product name without encoding information about it."},
+            {"question": "How do I download the Bet213 Slots APK?", "answer": "Use the Download URL button on the Bet213 Slots directory page — the current build is hosted at bet213app.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Bet213 Slots login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Bet213 Slots promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "777 Game APK Download 2026: Lucky Number, Card Game",
+        "slug": "777-game-apk-download",
+        "meta_title": "777 Game APK Download 2026: Lucky Number, Card Game",
+        "meta_description": "777 Game APK download link, login steps, and promo code status — and why a classic lucky number sits in Card Games, not Slots.",
+        "keywords": "777 game apk, 777 game apk download, 777 game yono, 777 game login, 777 game promo code",
+        "eyebrow": "Card Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "777 Game APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "777 Game APK Download Guide",
+        "published_date": "2026-08-08",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> 777 Game is a Card Games app in the All Yono lineup &mdash; "777" borrows the classic lucky-number association from slot machines, even though this particular app sits in Card Games, not Slots. Get the current APK from the <a href="/all-yono-games/777-game/" {LINK}>777 Game page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Card Games (not Slots, despite the name)</td></tr>
+          <tr><td>Current download domain</td><td>777game2.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>101Z, Maha Games, and Slots apps due to the "777" name</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of 777 Game. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Why Is 777 Game Filed Under Card Games, Not Slots?</h2>
+      <p>"777" is one of the most recognizable lucky-number references in gambling culture &mdash; it's the classic three-symbol slot-machine jackpot line, which is exactly why the name reads like it should be a Slots app. In this directory, though, 777 Game is categorized under Card Games. The name borrows the association for brand recognition; it doesn't describe the actual game format inside the app. Worth checking the category tag on the <a href="/all-yono-games/777-game/" {LINK}>777 Game directory page</a> before assuming what kind of gameplay you're getting.</p>
+
+      <h2>How Do I Download the 777 Game APK?</h2>
+      <p>Use the Download URL button on the 777 Game directory page &mdash; the current build is hosted at 777game2.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does 777 Game Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open 777 Game after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a 777 Game Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#777-game" {LINK}>777 Game entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is 777 Game the Same as 101Z or Maha Games?</h2>
+      <p>No. All three share the Card Games category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About 777 Game</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Why is 777 Game a Card Games app instead of Slots?", "answer": "\"777\" borrows the classic slot-machine lucky-number association for brand recognition, but this specific app is categorized as Card Games in the directory — the name doesn't describe the actual gameplay format."},
+            {"question": "How do I download the 777 Game APK?", "answer": "Use the Download URL button on the 777 Game directory page — the current build is hosted at 777game2.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does 777 Game login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a 777 Game promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Checking\" means it's still being confirmed."},
+        ],
+    },
+    {
+        "title": "Slot Spin APK Download 2026: Arcade, Despite the Name",
+        "slug": "slot-spin-apk-download",
+        "meta_title": "Slot Spin APK Download 2026: Arcade, Not Slots",
+        "meta_description": "Slot Spin APK download link, login steps, and promo code status — plus why this app sits in Arcade, not the Slots category.",
+        "keywords": "slot spin apk, slot spin apk download, slot spin yono, slot spin login, slot spin promo code",
+        "eyebrow": "Arcade Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Slot Spin APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Slot Spin APK Download Guide",
+        "published_date": "2026-08-09",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Slot Spin is an Arcade app in the All Yono lineup &mdash; despite "Slot" in the name, it's filed under Arcade rather than Slots. Get the current APK from the <a href="/all-yono-games/slot-spin/" {LINK}>Slot Spin page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Arcade (not Slots, despite the name)</td></tr>
+          <tr><td>Current download domain</td><td>slotsspiny.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>Jaiho Arcade, Jaiho Spin</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Slot Spin. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Why Is Slot Spin Filed Under Arcade, Not Slots?</h2>
+      <p>The name reads like a straightforward Slots app, but on this directory Slot Spin is categorized under Arcade alongside Jaiho Arcade and Jaiho Spin. That's a directory classification, not a contradiction &mdash; app names in this space are chosen for recognition, and don't always map one-to-one with the category a listing ends up in. If you're specifically looking for Slots-category apps, the <a href="/all-yono-games/slots/" {LINK}>All Yono Slots Games</a> page is the more direct starting point.</p>
+
+      <h2>How Do I Download the Slot Spin APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/slot-spin/" {LINK}>Slot Spin directory page</a> &mdash; the current build is hosted at slotsspiny.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Slot Spin Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Slot Spin after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Slot Spin Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#slot-spin" {LINK}>Slot Spin entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Slot Spin the Same as Jaiho Arcade or Jaiho Spin?</h2>
+      <p>No. All three share the Arcade category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Slot Spin</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Why is Slot Spin an Arcade app instead of Slots?", "answer": "It's a directory classification choice — the name is chosen for recognition and doesn't always map directly to category. Slot Spin sits in Arcade alongside Jaiho Arcade and Jaiho Spin on this directory."},
+            {"question": "How do I download the Slot Spin APK?", "answer": "Use the Download URL button on the Slot Spin directory page — the current build is hosted at slotsspiny.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Slot Spin login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Slot Spin promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "Ind Slots APK Download 2026: What \"Ind\" Stands For",
+        "slug": "ind-slots-apk-download",
+        "meta_title": "Ind Slots APK Download 2026: What \"Ind\" Stands For",
+        "meta_description": "Ind Slots APK download link, login steps, and promo code status — plus what the \"Ind\" prefix actually signals about this slots app.",
+        "keywords": "ind slots apk, ind slots apk download, ind slots yono, ind slots login, ind slots promo code",
+        "eyebrow": "Slots Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Ind Slots APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Ind Slots APK Download Guide",
+        "published_date": "2026-08-10",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Ind Slots is a spin-reel app in the All Yono lineup &mdash; "Ind" is short for "Indian," a common prefix in this app category, not a government or official designation. Get the current APK from the <a href="/all-yono-games/ind-slots/" {LINK}>Ind Slots page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Slots</td></tr>
+          <tr><td>Current download domain</td><td>indslots3.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>567 Slots, 789 Jackpots</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Ind Slots. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does "Ind" Mean in Ind Slots?</h2>
+      <p>It's shorthand for "Indian," used the same way a lot of apps in this category signal their target market directly in the name (Ind Club and Ind Rummy elsewhere in this directory follow the same convention). It isn't a government designation, official certification, or claim of exclusivity &mdash; it's a market-facing brand choice, similar to "Ind Rummy" or "Ind Club" elsewhere in this directory.</p>
+
+      <h2>How Do I Download the Ind Slots APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/ind-slots/" {LINK}>Ind Slots directory page</a> &mdash; the current build is hosted at indslots3.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Ind Slots Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Ind Slots after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There an Ind Slots Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#ind-slots" {LINK}>Ind Slots entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Ind Slots the Same as 567 Slots or 789 Jackpots?</h2>
+      <p>No. All three share the Slots category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Ind Slots</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does \"Ind\" mean in Ind Slots?", "answer": "It's shorthand for \"Indian,\" a common market-facing prefix in this app category — not a government designation or certification. Ind Rummy and Ind Club elsewhere in this directory use the same convention."},
+            {"question": "How do I download the Ind Slots APK?", "answer": "Use the Download URL button on the Ind Slots directory page — the current build is hosted at indslots3.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Ind Slots login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there an Ind Slots promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Checking\" means it's still being confirmed."},
+        ],
+    },
+    {
+        "title": "MBM Bet APK Download 2026: The Only Sports Listing Here",
+        "slug": "mbm-bet-apk-download",
+        "meta_title": "MBM Bet APK Download 2026: The Directory's Only Sports App",
+        "meta_description": "MBM Bet APK download link, login steps, and promo code status — and why it's the only Sports-category listing in this directory.",
+        "keywords": "mbm bet apk, mbm bet apk download, mbm bet yono, mbm bet login, mbm bet promo code",
+        "eyebrow": "Sports",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "MBM Bet APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "MBM Bet APK Download Guide",
+        "published_date": "2026-08-11",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> MBM Bet is the only Sports-category app currently listed in the All Yono directory. Get the current APK from the <a href="/all-yono-games/mbm-bet/" {LINK}>MBM Bet page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Sports (the only listing in this category)</td></tr>
+          <tr><td>Current download domain</td><td>mbmbet21.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of MBM Bet. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does "MBM" Stand For?</h2>
+      <p>There's no publicly confirmed expansion of the initialism &mdash; like many app names in this category, it functions as a standalone brand rather than a spelled-out phrase. What's more useful to know: MBM Bet is currently the only app in the Sports category on this directory, so there's no sibling app to confuse it with here, unlike most other listings in this network.</p>
+
+      <h2>How Do I Download the MBM Bet APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/mbm-bet/" {LINK}>MBM Bet directory page</a> &mdash; the current build is hosted at mbmbet21.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does MBM Bet Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open MBM Bet after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There an MBM Bet Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#mbm-bet" {LINK}>MBM Bet entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>FAQs About MBM Bet</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does \"MBM\" stand for?", "answer": "There's no publicly confirmed expansion — it functions as a standalone brand name, the same as many app names in this category."},
+            {"question": "Is MBM Bet the only sports app in the All Yono directory?", "answer": "Yes, as of this guide it's the sole Sports-category listing — there's no sibling app in the same category to confuse it with."},
+            {"question": "How do I download the MBM Bet APK?", "answer": "Use the Download URL button on the MBM Bet directory page — the current build is hosted at mbmbet21.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does MBM Bet login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there an MBM Bet promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Checking\" means it's still being confirmed."},
+        ],
+    },
+    {
+        "title": "Saga Slots APK Download 2026: What \"Saga\" Implies",
+        "slug": "saga-slots-apk-download",
+        "meta_title": "Saga Slots APK Download 2026: What \"Saga\" Implies",
+        "meta_description": "Saga Slots APK download link, login steps, and promo code status — plus what the word \"Saga\" actually signals about this slots app.",
+        "keywords": "saga slots apk, saga slots apk download, saga slots yono, saga slots login, saga slots promo code",
+        "eyebrow": "Slots Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Saga Slots APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Saga Slots APK Download Guide",
+        "published_date": "2026-08-12",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Saga Slots is a spin-reel app in the All Yono lineup &mdash; "Saga" suggests scale and an ongoing story, used as branding rather than a description of a specific game mode. Get the current APK from the <a href="/all-yono-games/saga-slots/" {LINK}>Saga Slots page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Slots</td></tr>
+          <tr><td>Current download domain</td><td>sagaslots23.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>567 Slots, 789 Jackpots</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Saga Slots. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does "Saga" Mean in Saga Slots?</h2>
+      <p>A saga is traditionally a long, ongoing story or legend &mdash; here, it's a branding choice meant to suggest scale and staying power, not a description of a specific storyline, level structure, or feature set inside the app. Treat it as a name, the same way you would any other word-based brand in this directory.</p>
+
+      <h2>How Do I Download the Saga Slots APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/saga-slots/" {LINK}>Saga Slots directory page</a> &mdash; the current build is hosted at sagaslots23.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Saga Slots Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Saga Slots after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Saga Slots Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#saga-slots" {LINK}>Saga Slots entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Saga Slots the Same as 567 Slots or 789 Jackpots?</h2>
+      <p>No. All three share the Slots category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Saga Slots</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does \"Saga\" mean in Saga Slots?", "answer": "A saga is traditionally a long, ongoing story — here it's used as branding to suggest scale, not a description of a specific game mode or feature."},
+            {"question": "How do I download the Saga Slots APK?", "answer": "Use the Download URL button on the Saga Slots directory page — the current build is hosted at sagaslots23.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Saga Slots login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Saga Slots promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Waiting to Release\" means none has been issued for that window yet."},
+        ],
+    },
+    {
+        "title": "Spin Crush APK Download 2026: A Casual-Style Name in Arcade",
+        "slug": "spin-crush-apk-download",
+        "meta_title": "Spin Crush APK Download 2026: Arcade Category Fit",
+        "meta_description": "Spin Crush APK download link, login steps, and promo code status — plus how the \"Crush\" name fits its Arcade category placement.",
+        "keywords": "spin crush apk, spin crush apk download, spin crush yono, spin crush login, spin crush promo code",
+        "eyebrow": "Arcade Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Spin Crush APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Spin Crush APK Download Guide",
+        "published_date": "2026-08-13",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Spin Crush is an Arcade app in the All Yono lineup &mdash; "Crush" echoes casual match-style game branding, common across quick-play mobile apps. Get the current APK from the <a href="/all-yono-games/spin-crush/" {LINK}>Spin Crush page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Arcade</td></tr>
+          <tr><td>Current download domain</td><td>See the current listed link on the directory page</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>Jaiho Arcade, Jaiho Spin</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Spin Crush. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>What Does "Crush" Signal in Spin Crush?</h2>
+      <p>"Crush" is a common naming cue in casual and match-style mobile games &mdash; it suggests quick, satisfying rounds rather than describing a specific mechanic unique to this app. Paired with "Spin," it fits the Arcade category this app is filed under on this directory, alongside Jaiho Arcade and Jaiho Spin.</p>
+
+      <h2>How Do I Download the Spin Crush APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/spin-crush/" {LINK}>Spin Crush directory page</a> for the current link. As with every app in this network, that address isn't permanent and gets reissued periodically with a new tracking code, so always confirm against the live listing rather than an older saved link.</p>
+
+      <h2>How Does Spin Crush Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Spin Crush after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Spin Crush Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#spin-crush" {LINK}>Spin Crush entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Spin Crush the Same as Jaiho Arcade or Jaiho Spin?</h2>
+      <p>No. All three share the Arcade category in the All Yono lineup, but each is a separate app with its own developer, download link, account system, and promo codes.</p>
+
+      <h2>FAQs About Spin Crush</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "What does \"Crush\" mean in Spin Crush?", "answer": "It's a common naming cue in casual and match-style mobile games, suggesting quick, satisfying rounds rather than a specific unique mechanic."},
+            {"question": "How do I download the Spin Crush APK?", "answer": "Use the Download URL button on the Spin Crush directory page for the current link — like every app in this network, the address gets reissued periodically with a new tracking code."},
+            {"question": "How does Spin Crush login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is there a Spin Crush promo code today?", "answer": "Check the Promo Code page for the current status. A visible code is redeemable immediately; \"Checking\" means it's still being confirmed."},
+        ],
+    },
+    {
+        "title": "Slots Winner APK Download 2026: A Name, Not a Guarantee",
+        "slug": "slots-winner-apk-download",
+        "meta_title": "Slots Winner APK Download 2026: No Guarantee Implied",
+        "meta_description": "Slots Winner APK download link, login steps, and promo code status — and why the name isn't a guaranteed-win claim.",
+        "keywords": "slots winner apk, slots winner apk download, slots winner yono, slots winner login, slots winner promo code",
+        "eyebrow": "Slots Games",
+        "cover_image": "/assets/images/og-cover.jpg",
+        "image_alt": "Slots Winner APK download guide showing the official download link, login process, and promo code status for Indian users",
+        "breadcrumb_label": "Slots Winner APK Download Guide",
+        "published_date": "2026-08-14",
+        "body_html": f'''<div class="callout" style="border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08)">
+        <strong>Quick answer:</strong> Slots Winner is a spin-reel app in the All Yono lineup &mdash; "Winner" is a brand name, not a guarantee, the same way this directory's Spin Winner listing isn't either. Get the current APK from the <a href="/all-yono-games/slots-winner/" {LINK}>Slots Winner page</a> on this directory, install it, verify your phone number inside the app, and check the Promo Code page for today's status before you start playing.
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <table>
+        <thead><tr><th>What</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Category</td><td>Slots</td></tr>
+          <tr><td>Current download domain</td><td>slotswinnerk.com</td></tr>
+          <tr><td>Login method</td><td>Phone number + SMS OTP, inside the app only</td></tr>
+          <tr><td>Promo code schedule</td><td>Morning, afternoon, evening &mdash; updated as codes release</td></tr>
+          <tr><td>Often confused with</td><td>567 Slots, 789 Jackpots, and Spin Winner (Arcade, a different app entirely)</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Slots Winner. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Does "Winner" in Slots Winner Mean Anything Is Guaranteed?</h2>
+      <p>No &mdash; "Winner" here is a brand name, not an outcome claim, the same point worth making about this directory's separate Spin Winner listing (an Arcade app, not to be confused with this one despite the similar name). Neither name implies odds, payout rate, or a guaranteed result. Treat it the same way you would any confidence-branded product name.</p>
+
+      <h2>How Do I Download the Slots Winner APK?</h2>
+      <p>Use the Download URL button on the <a href="/all-yono-games/slots-winner/" {LINK}>Slots Winner directory page</a> &mdash; the current build is hosted at slotswinnerk.com, though like every link in this network, that address isn't permanent. The developer reissues it periodically with a new tracking code, so a link saved from a chat a few weeks ago has real odds of being dead today.</p>
+
+      <h2>How Does Slots Winner Login Work?</h2>
+      <p>Login happens entirely inside the app, not on this website. Open Slots Winner after installing it, enter your phone number, and confirm the OTP sent by SMS. This directory does not provide a login form and never asks for your password, OTP, or account details.</p>
+
+      <h2>Is There a Slots Winner Promo Code Today?</h2>
+      <p>Check the <a href="/promo-code/#slots-winner" {LINK}>Slots Winner entry on the Promo Code page</a> for the current status &mdash; that's the only version of this information worth trusting.</p>
+
+      <h2>Is Slots Winner the Same as Spin Winner?</h2>
+      <p>No. Spin Winner is a separate Arcade-category app in this directory. Slots Winner is its own Slots-category app with its own developer, download link, account system, and promo codes &mdash; the similar name is a coincidence of branding, not a shared ownership.</p>
+
+      <h2>FAQs About Slots Winner</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Does \"Winner\" in Slots Winner guarantee anything?", "answer": "No — it's a brand name, not an outcome claim, the same as this directory's separate Spin Winner listing. Neither implies odds or a guaranteed result."},
+            {"question": "How do I download the Slots Winner APK?", "answer": "Use the Download URL button on the Slots Winner directory page — the current build is hosted at slotswinnerk.com, and that address gets reissued periodically with a new tracking code."},
+            {"question": "How does Slots Winner login work?", "answer": "Login happens entirely inside the app after installing it — enter your phone number and confirm the SMS OTP. This website does not provide a login form."},
+            {"question": "Is Slots Winner the same as Spin Winner?", "answer": "No. Spin Winner is a separate Arcade-category app. Slots Winner is its own Slots-category app with its own developer, download link, and account system."},
+        ],
+    },
 ]
