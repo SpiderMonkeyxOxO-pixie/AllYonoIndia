@@ -282,3 +282,8 @@ Platform name: Yono 777
 Morning code: Waiting to Release
 Afternoon code: Waiting to Release
 Evening code: Waiting to Release
+
+Platform name: Win Rummy
+Morning code: Checking
+Afternoon code: Checking
+Evening code: Checking

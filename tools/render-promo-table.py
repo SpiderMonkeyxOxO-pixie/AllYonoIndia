@@ -142,7 +142,7 @@ def main():
     last_updated, games = parse_promo_text(text)
 
     main_rows = "\n            " + "\n            ".join(
-        [static_checking_row("win-rummy", "Win Rummy"), static_checking_row("dhan-game", "DhanGame")]
+        [static_checking_row("dhan-game", "DhanGame")]
         + [build_promo_row(g) for g in games]
     ) + "\n          "
     by_slug = {g["slug"]: g for g in games}

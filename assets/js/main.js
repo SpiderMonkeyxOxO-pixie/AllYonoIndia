@@ -263,19 +263,6 @@
       '</tr>';
   }
 
-  /* Static row for Win Rummy, which just launched and isn't in promo-codes.txt yet,
-     so it still surfaces at the top of the Promo Code page ahead of the next update. */
-  function buildWinRummyRow() {
-    var checking = '<span class="status-pill status-checking">Checking</span>';
-    return '<tr id="win-rummy" data-name="Win Rummy" data-status="waiting">' +
-      '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/win-rummy.webp" alt="Win Rummy logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">Win Rummy</span></td>' +
-      '<td data-label="Morning">' + checking + '</td>' +
-      '<td data-label="Afternoon">' + checking + '</td>' +
-      '<td data-label="Evening">' + checking + '</td>' +
-      '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/win-rummy/">View Game</a></td>' +
-      '</tr>';
-  }
-
   var promoTableBody = document.getElementById("promoTableBody");
   var promoPreviewBody = document.getElementById("promoPreviewBody");
 
@@ -291,7 +278,7 @@
         });
 
         if (promoTableBody) {
-          promoTableBody.innerHTML = buildWinRummyRow() + buildDhanGameRow() + games.map(buildPromoRow).join("");
+          promoTableBody.innerHTML = buildDhanGameRow() + games.map(buildPromoRow).join("");
           applyPromoFilters();
           if (window.location.hash) {
             var target = document.getElementById(window.location.hash.slice(1));
