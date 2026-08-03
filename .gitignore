@@ -6,3 +6,4 @@ node_modules/
 tools/.env
 .user.ini
 __pycache__/
+Scheduled/
