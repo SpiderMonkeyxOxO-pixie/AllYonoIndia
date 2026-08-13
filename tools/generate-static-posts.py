@@ -38,6 +38,7 @@ HEADER = '''<header class="site-header">
     <a href="/" class="logo"><img src="/assets/icons/logo.webp" alt="All Yono India logo" width="34" height="34" class="logo-mark-img" loading="eager">All Yono <span class="logo-india">India</span></a>
     <nav class="main-nav" aria-label="Primary">
       <a href="/">Home</a>
+      <a href="/india-guide/">India Guide</a>
       <a href="/all-yono-games/">All Yono Games</a>
       <a href="/promo-code/">Promo Code</a>
       <a href="/blog/" class="is-active">Blog</a>
@@ -51,6 +52,7 @@ HEADER = '''<header class="site-header">
   </div>
   <nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
     <a href="/">Home</a>
+    <a href="/india-guide/">India Guide</a>
     <a href="/all-yono-games/">All Yono Games</a>
     <a href="/promo-code/">Promo Code</a>
     <a href="/blog/">Blog</a>
@@ -72,6 +74,7 @@ FOOTER = '''<footer class="site-footer">
         <h3>Main Pages</h3>
         <ul>
           <li><a href="/">Home</a></li>
+          <li><a href="/india-guide/">India Guide</a></li>
           <li><a href="/all-yono-games/">All Yono Games</a></li>
           <li><a href="/promo-code/">Promo Code</a></li>
           <li><a href="/blog/">Blog</a></li>

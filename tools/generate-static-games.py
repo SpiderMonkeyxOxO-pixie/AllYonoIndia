@@ -23,6 +23,7 @@ import sys
 from urllib.parse import urlsplit
 
 from new_games_data import NEW_GAMES
+from india_status import india_status_html
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 GDIR = os.path.join(ROOT, "all-yono-games")
@@ -212,6 +213,7 @@ HEADER = '''<header class="site-header">
     <a href="/" class="logo"><img src="/assets/icons/logo.webp" alt="All Yono India logo" width="34" height="34" class="logo-mark-img" loading="eager">All Yono <span class="logo-india">India</span></a>
     <nav class="main-nav" aria-label="Primary">
       <a href="/">Home</a>
+      <a href="/india-guide/">India Guide</a>
       <a href="/all-yono-games/" class="is-active">All Yono Games</a>
       <a href="/promo-code/">Promo Code</a>
       <a href="/blog/">Blog</a>
@@ -225,6 +227,7 @@ HEADER = '''<header class="site-header">
   </div>
   <nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
     <a href="/">Home</a>
+    <a href="/india-guide/">India Guide</a>
     <a href="/all-yono-games/">All Yono Games</a>
     <a href="/promo-code/">Promo Code</a>
     <a href="/blog/">Blog</a>
@@ -246,6 +249,7 @@ FOOTER = '''<footer class="site-footer">
         <h3>Main Pages</h3>
         <ul>
           <li><a href="/">Home</a></li>
+          <li><a href="/india-guide/">India Guide</a></li>
           <li><a href="/all-yono-games/">All Yono Games</a></li>
           <li><a href="/promo-code/">Promo Code</a></li>
           <li><a href="/blog/">Blog</a></li>
@@ -434,7 +438,8 @@ def build_game_page(g, existing_games):
       <h2 style="margin-top:40px">Frequently Asked Questions</h2>
 {faq_html}
 {related_block}
-      <div class="callout" style="margin-top:32px">
+{india_status_html(g, name)}
+      <div class="callout" style="margin-top:16px">
         All Yono India is an independent directory and is not the developer, publisher, or operator of {name}. <a href="/disclaimer/" style="color:var(--cyan);font-weight:700">Read our full disclaimer</a>.
       </div>
     </div>

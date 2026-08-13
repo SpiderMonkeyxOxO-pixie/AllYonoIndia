@@ -1,13 +1,14 @@
 # All Yono India
 
-> All Yono India (allyonoindia.com) is an independent directory for Indian mobile users, listing 52+ All Yono-branded game apps with APK download links, promo code status, and access notes. It is not affiliated with YONO SBI, the State Bank of India, or any game developer — game names and icons are shown for identification only.
+> All Yono India (allyonoindia.com) is an independent India-specific verification hub for All Yono-branded games. It tracks and clearly labels what is actually known — for users in India specifically — about availability, legal status, UPI support, and KYC, alongside a directory of 52+ games with APK download links, promo code status, and access notes. It is not affiliated with YONO SBI, the State Bank of India, or any game developer — game names and icons are shown for identification only.
 
-All content is updated in IST. The site does not require an account, does not host APK files itself (it links to third-party download pages), and never collects OTPs, passwords, or payment details.
+All content is updated in IST. The site does not require an account, does not host APK files itself (it links to third-party download pages), and never collects OTPs, passwords, or payment details. Missing India-specific data is always labeled "Not Yet Reviewed," never treated as a negative fact — see the India Guide.
 
 ## Main Pages
 
 - [Home](https://allyonoindia.com/): Directory overview and featured games.
-- [All Yono Games](https://allyonoindia.com/all-yono-games/): Full directory of 52+ games with download links and access notes.
+- [India Guide](https://allyonoindia.com/india-guide/): How India-specific facts (availability, legal status, UPI, KYC) are verified and labeled.
+- [All Yono Games](https://allyonoindia.com/all-yono-games/): Full directory of 52+ games with download links, access notes, and each game's own India-Specific Status panel.
 - [Promo Code](https://allyonoindia.com/promo-code/): Morning, afternoon, and evening promo code status per game.
 - [Blog](https://allyonoindia.com/blog/): Guides and access notes.
 
@@ -27,7 +28,7 @@ All content is updated in IST. The site does not require an account, does not ho
 
 ## Policies
 
-- [Disclaimer](https://allyonoindia.com/disclaimer/): Independent-directory notice, age restriction, and state-wise real-money gaming availability.
+- [Disclaimer](https://allyonoindia.com/disclaimer/): Independent-directory notice, age restriction, and regional real-money gaming availability guidance.
 - [Privacy Policy](https://allyonoindia.com/privacy-policy/)
 - [Terms](https://allyonoindia.com/terms/)
 - [Contact](https://allyonoindia.com/contact/)
