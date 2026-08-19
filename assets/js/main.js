@@ -263,15 +263,15 @@
       '</tr>';
   }
 
-  /* Static row for Gold Rummy, a coming-soon title not in Strapi yet — same pattern as
-     buildWinRummyRow() previously used for Win Rummy's own pre-launch phase. */
+  /* Static row for Gold Rummy, which just launched and isn't in Strapi/promo-codes.txt yet,
+     so it still surfaces at the top of the Promo Code page ahead of the next CMS sync. */
   function buildGoldRummyRow() {
-    var soon = '<span class="status-pill status-soon">Coming Soon</span>';
-    return '<tr id="gold-rummy" data-name="Gold Rummy" data-status="soon">' +
+    var checking = '<span class="status-pill status-checking">Checking</span>';
+    return '<tr id="gold-rummy" data-name="Gold Rummy" data-status="waiting">' +
       '<td data-label="Game"><span class="promo-game-cell"><img src="/assets/images/games/gold-rummy.png" alt="Gold Rummy logo" width="30" height="30" loading="lazy" onerror="this.style.display=\'none\'">Gold Rummy</span></td>' +
-      '<td data-label="Morning">' + soon + '</td>' +
-      '<td data-label="Afternoon">' + soon + '</td>' +
-      '<td data-label="Evening">' + soon + '</td>' +
+      '<td data-label="Morning">' + checking + '</td>' +
+      '<td data-label="Afternoon">' + checking + '</td>' +
+      '<td data-label="Evening">' + checking + '</td>' +
       '<td data-label="Action"><a class="btn btn-outline btn-sm" href="/all-yono-games/gold-rummy/">View Game</a></td>' +
       '</tr>';
   }
