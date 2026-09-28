@@ -21,10 +21,12 @@ Usage:
     python3 tools/publish-scheduled-posts.py
 """
 import datetime
+import json
 import os
 import re
 import subprocess
 import sys
+import urllib.request
 
 sys.path.insert(0, os.path.dirname(__file__))
 from new_posts_data import NEW_POSTS
@@ -42,6 +44,20 @@ MONTHS = ["January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 LINK_STYLE = 'style="color:var(--cyan);font-weight:700"'
 GUIDE_START, GUIDE_END = "<!-- STATUS_EXPLAINERS_START -->", "<!-- STATUS_EXPLAINERS_END -->"
+INDEXNOW_KEY = "6d709752e23df86c951703a5e5621fb7"  # key file served at /<key>.txt
+
+
+def submit_indexnow(urls):
+    """Tell IndexNow engines (Bing, Yandex, Seznam...) about new URLs. Never fails the publish."""
+    body = json.dumps({"host": "allyonoindia.com", "key": INDEXNOW_KEY,
+                       "keyLocation": f"https://allyonoindia.com/{INDEXNOW_KEY}.txt", "urlList": urls}).encode()
+    req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, method="POST",
+                                 headers={"Content-Type": "application/json; charset=utf-8"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"IndexNow: HTTP {r.status} for {len(urls)} URL(s)")
+    except Exception as e:  # network or API error: log and carry on
+        print(f"IndexNow: submission failed ({e})")
 
 
 def already_promoted(slug):
@@ -190,6 +206,9 @@ def main():
     subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     print("Committed and pushed.")
+    if promoted:
+        submit_indexnow([f"https://allyonoindia.com/blog/{s}/" for s, _ in promoted]
+                        + ["https://allyonoindia.com/blog/"])
 
 
 if __name__ == "__main__":
