@@ -6,6 +6,13 @@ sitemap.xml, not on the blog listing grid, not linked from its game page —
 until this script "promotes" it: adds the sitemap entry, the blog listing
 card, and (if a matching game page exists) the backlink from that game page.
 
+Also publishes "staged" posts from scheduled_posts.py. Their pages live in
+tools/scheduled/<slug>/ (not web-served) until their published_date, when they
+are rendered into blog/<slug>/ with the real date filled in and listed in the
+sitemap, blog grid, llms.txt and the India Guide. Links between staged posts
+that are not live yet are left out, and restored on the run that publishes
+the target post.
+
 Meant to run once a day via cron. Idempotent — running it twice in the same
 day, or after everything's already promoted, does nothing on the second run.
 
@@ -21,12 +28,20 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from new_posts_data import NEW_POSTS
+from scheduled_posts import SCHEDULED_POSTS
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
 BLOG_INDEX_PATH = os.path.join(ROOT, "blog", "index.html")
+STAGED_DIR = os.path.join(ROOT, "tools", "scheduled")
+LLMS_PATH = os.path.join(ROOT, "llms.txt")
+GUIDE_PATH = os.path.join(ROOT, "india-guide", "index.html")
 
 TODAY = datetime.date.today().isoformat()
+MONTHS = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
+LINK_STYLE = 'style="color:var(--cyan);font-weight:700"'
+GUIDE_START, GUIDE_END = "<!-- STATUS_EXPLAINERS_START -->", "<!-- STATUS_EXPLAINERS_END -->"
 
 
 def already_promoted(slug):
@@ -81,6 +96,59 @@ def add_game_page_backlink(post):
     return True
 
 
+def human_date(iso):
+    y, m, d = iso.split("-")
+    return f"{int(d)} {MONTHS[int(m) - 1]} {y}"
+
+
+def render_staged(post, live):
+    """Write blog/<slug>/index.html from its staged source. Returns True if the file changed."""
+    src = open(os.path.join(STAGED_DIR, post["slug"], "index.html"), encoding="utf-8").read()
+    src = src.replace("{{DATE_ISO}}", post["published_date"]).replace("{{DATE_HUMAN}}", human_date(post["published_date"]))
+    for p in SCHEDULED_POSTS:
+        if p["slug"] in live:
+            continue
+        s = re.escape(p["slug"])
+        # a "related reading" item that only points at an unpublished post is dropped; inline links become plain text
+        src = re.sub(r'\n\s*<li><a href="/blog/' + s + r'/"[^>]*>.*?</a></li>', "", src)
+        src = re.sub(r'<a href="/blog/' + s + r'/"[^>]*>(.*?)</a>', r"\1", src)
+    out_dir = os.path.join(ROOT, "blog", post["slug"])
+    out = os.path.join(out_dir, "index.html")
+    if os.path.isfile(out) and open(out, encoding="utf-8").read() == src:
+        return False
+    os.makedirs(out_dir, exist_ok=True)
+    open(out, "w", encoding="utf-8").write(src)
+    return True
+
+
+def list_in_india_guide(post):
+    g = open(GUIDE_PATH, encoding="utf-8").read()
+    item = f'        <li><a href="/blog/{post["slug"]}/" {LINK_STYLE}>{post["title"]}</a></li>\n'
+    if item in g:
+        return
+    if GUIDE_START not in g:
+        block = (f"      {GUIDE_START}\n      <h2>Explainers on Each Status Field</h2>\n      <ul>\n"
+                 f"      </ul>\n      {GUIDE_END}\n\n")
+        g, n = re.subn(r"(      <h2>Related Reading</h2>)", lambda m: block + m.group(1), g, count=1)
+        if not n:
+            print("WARNING: India Guide has no Related Reading heading; explainer list not added")
+            return
+    g = g.replace(f"      </ul>\n      {GUIDE_END}", item + f"      </ul>\n      {GUIDE_END}", 1)
+    open(GUIDE_PATH, "w", encoding="utf-8").write(g)
+
+
+def list_in_llms(post):
+    t = open(LLMS_PATH, encoding="utf-8").read()
+    line = f"- [{post['title']}](https://allyonoindia.com/blog/{post['slug']}/)\n"
+    if line in t:
+        return
+    head = "## India Status Explainers\n\n"
+    if head not in t:
+        t = t.replace("## Legal and Safety Guides", head + "\n## Legal and Safety Guides", 1)
+    t = t.replace(head, head + line, 1)
+    open(LLMS_PATH, "w", encoding="utf-8").write(t)
+
+
 def main():
     due = [p for p in NEW_POSTS if p.get("published_date", "9999-99-99") <= TODAY]
     promoted = []
@@ -90,17 +158,35 @@ def main():
         add_to_sitemap(post)
         add_to_blog_listing(post)
         linked = add_game_page_backlink(post)
-        promoted.append((post["slug"], linked))
+        promoted.append((post["slug"], "game-page backlink: " + ("added" if linked else "no matching game page")))
 
-    if not promoted:
+    live = {p["slug"] for p in SCHEDULED_POSTS if p["published_date"] <= TODAY}
+    refreshed = []
+    for post in SCHEDULED_POSTS:
+        if post["slug"] not in live:
+            continue
+        changed = render_staged(post, live)
+        if not already_promoted(post["slug"]):
+            add_to_sitemap(post)
+            add_to_blog_listing(dict(post, meta_description=post["excerpt"]))
+            list_in_india_guide(post)
+            list_in_llms(post)
+            promoted.append((post["slug"], "staged post published"))
+        elif changed:
+            refreshed.append(post["slug"])
+
+    if not promoted and not refreshed:
         print(f"{TODAY}: nothing due to promote.")
         return
 
-    for slug, linked in promoted:
-        print(f"Promoted blog/{slug}/ (game-page backlink: {'added' if linked else 'no matching game page'})")
+    for slug, note in promoted:
+        print(f"Promoted blog/{slug}/ ({note})")
+    for slug in refreshed:
+        print(f"Refreshed blog/{slug}/ (links to newly published posts restored)")
 
     subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)
-    msg = "Publish scheduled post" + ("s" if len(promoted) > 1 else "") + ": " + ", ".join(s for s, _ in promoted)
+    names = [s for s, _ in promoted] or refreshed
+    msg = "Publish scheduled post" + ("s" if len(names) > 1 else "") + ": " + ", ".join(names)
     subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     print("Committed and pushed.")
