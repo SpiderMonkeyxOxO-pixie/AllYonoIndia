@@ -1,34 +1,52 @@
 # All Yono India
 
-> All Yono India (allyonoindia.com) is an independent India-specific verification hub for All Yono-branded games. It tracks and clearly labels what is actually known — for users in India specifically — about availability, legal status, UPI support, and KYC, alongside a directory of 52+ games with APK download links, promo code status, and access notes. It is not affiliated with YONO SBI, the State Bank of India, or any game developer — game names and icons are shown for identification only.
+> All Yono India (allyonoindia.com) is an independent India-specific verification hub for All Yono-branded games. It tracks and clearly labels what is actually known, for users in India specifically, about availability, legal status, UPI support, and KYC, alongside a directory of Yono-branded apps with their currently listed download links and promo code status. It is not affiliated with YONO SBI, the State Bank of India, or any game developer. Game names and icons are shown for identification only.
 
-All content is updated in IST. The site does not require an account, does not host APK files itself (it links to third-party download pages), and never collects OTPs, passwords, or payment details. Missing India-specific data is always labeled "Not Yet Reviewed," never treated as a negative fact — see the India Guide.
+Content is for adults (18+). Online money games are prohibited in India under the Promotion and Regulation of Online Gaming Act, 2025, in force with the Online Gaming Rules, 2026 since 1 May 2026; the legal guide below links to the official MeitY and PIB sources. Some download links are referral links and are disclosed on each page. The site does not require an account, does not host APK files itself, and never collects OTPs, passwords, or payment details. Missing India-specific data is always labeled "Not Yet Reviewed", never treated as a negative fact.
 
 ## Main Pages
 
 - [Home](https://allyonoindia.com/): Directory overview and featured games.
 - [India Guide](https://allyonoindia.com/india-guide/): How India-specific facts (availability, legal status, UPI, KYC) are verified and labeled.
-- [All Yono Games](https://allyonoindia.com/all-yono-games/): Full directory of 52+ games with download links, access notes, and each game's own India-Specific Status panel.
-- [Promo Code](https://allyonoindia.com/promo-code/): Morning, afternoon, and evening promo code status per game.
+- [All Yono Games](https://allyonoindia.com/all-yono-games/): Full directory with download links, access notes, and an India-Specific Status panel on each game page.
+- [Promo Code](https://allyonoindia.com/promo-code/): Morning, afternoon, and evening promo code status per game, with the date the data was last changed.
 - [Blog](https://allyonoindia.com/blog/): Guides and access notes.
 
 ## Game Categories
 
 - [Rummy Games](https://allyonoindia.com/all-yono-games/rummy/)
 - [Arcade Games](https://allyonoindia.com/all-yono-games/arcade/)
+- [Slots Games](https://allyonoindia.com/all-yono-games/slots/)
+- [Card Games](https://allyonoindia.com/all-yono-games/card-games/)
+- [Casual Games](https://allyonoindia.com/all-yono-games/casual/)
 
-## Guides
+## Legal and Safety Guides
+
+- [Is Online Rummy Legal in India](https://allyonoindia.com/blog/is-online-rummy-legal-in-india/): The Online Gaming Act, 2025 and Rules, 2026, with official sources.
+- [Spot a Fake All Yono App Scam](https://allyonoindia.com/blog/spot-fake-all-yono-app-scam/)
+- [All Yono App Permissions Explained](https://allyonoindia.com/blog/all-yono-app-permissions-explained/)
+- [All Yono Customer Care Number](https://allyonoindia.com/blog/all-yono-customer-care-number/)
+- [All Yono Login Explained](https://allyonoindia.com/blog/all-yono-login-explained/)
+- [How All Yono Promo Codes Work](https://allyonoindia.com/blog/how-all-yono-promo-codes-work/)
+
+## India Availability Guides
+
+- [Win Rummy India Guide](https://allyonoindia.com/blog/win-rummy-india-guide/)
+- [Gold Rummy India Availability Guide](https://allyonoindia.com/blog/gold-rummy-india-availability-guide/)
+- [Money Rummy India Availability Guide](https://allyonoindia.com/blog/money-rummy-india-availability-guide/)
+
+## Lists
 
 - [All Yono Games List 2026](https://allyonoindia.com/blog/all-yono-games-list/)
-- [How All Yono Promo Codes Work](https://allyonoindia.com/blog/how-all-yono-promo-codes-work/)
-- [Spot a Fake All Yono App Scam](https://allyonoindia.com/blog/spot-fake-all-yono-app-scam/)
-- [Is Online Rummy Legal in India](https://allyonoindia.com/blog/is-online-rummy-legal-in-india/)
-- [All Yono Login Explained](https://allyonoindia.com/blog/all-yono-login-explained/)
-- [All Yono App Permissions Explained](https://allyonoindia.com/blog/all-yono-app-permissions-explained/)
+- [All Yono Rummy Games](https://allyonoindia.com/blog/all-yono-rummy-games/)
+- [All Yono Arcade Games](https://allyonoindia.com/blog/all-yono-arcade-games/)
 
-## Policies
+## About and Policies
 
-- [Disclaimer](https://allyonoindia.com/disclaimer/): Independent-directory notice, age restriction, and regional real-money gaming availability guidance.
+- [About](https://allyonoindia.com/about/): Who runs the site, what it does, and how it makes money.
+- [Editorial Policy](https://allyonoindia.com/editorial-policy/): Labelling rules, sources, referral-link handling, and corrections.
+- [Responsible Gaming](https://allyonoindia.com/responsible-gaming/): Risks, warning signs, and free Indian helplines (Tele-MANAS 14416, Cyber Crime 1930).
+- [Disclaimer](https://allyonoindia.com/disclaimer/): Independent-directory notice, age restriction, and legal caution.
 - [Privacy Policy](https://allyonoindia.com/privacy-policy/)
 - [Terms](https://allyonoindia.com/terms/)
 - [Contact](https://allyonoindia.com/contact/)

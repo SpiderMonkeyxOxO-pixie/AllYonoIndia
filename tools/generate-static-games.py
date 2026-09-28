@@ -268,6 +268,9 @@ FOOTER = '''<footer class="site-footer">
       <div class="footer-col">
         <h3>Important Notes</h3>
         <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/editorial-policy/">Editorial Policy</a></li>
+          <li><a href="/responsible-gaming/">Responsible Gaming (18+)</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/disclaimer/">Disclaimer</a></li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
@@ -275,7 +278,7 @@ FOOTER = '''<footer class="site-footer">
         </ul>
       </div>
     </div>
-    <p class="footer-note">All Yono India does not collect OTPs, passwords, payment details, IDs, screenshots, or private account information through this website.</p>
+    <p class="footer-note">18+ only. Some download links on this site are referral links, and All Yono India may earn a commission when they are used. Online money games are prohibited in India under the Promotion and Regulation of Online Gaming Act, 2025; read the <a href="/blog/is-online-rummy-legal-in-india/">legal status guide</a> and <a href="/responsible-gaming/">Responsible Gaming</a>. All Yono India does not collect OTPs, passwords, payment details, IDs, screenshots, or private account information through this website.</p>
     <div class="footer-bottom">
       <span>&copy; 2026 All Yono India. All rights reserved.</span>
       <span>Made for Indian mobile game users.</span>
@@ -430,7 +433,7 @@ def build_game_page(g, existing_games):
         <li>Last Updated: <b>{updated}</b></li>
       </ul>
       <div class="card-actions" style="max-width:420px">
-        <a class="btn btn-cyan" href="{g['download_url']}" target="_blank" rel="nofollow noopener noreferrer">Download URL</a>
+        <a class="btn btn-cyan" href="{g['download_url']}" target="_blank" rel="sponsored nofollow noopener noreferrer">Download URL</a>
         <a class="btn btn-ghost" href="/promo-code/#{slug}">Check Promo Code</a>
       </div>
       <p class="access-note" style="margin-top:12px">Login inside app only</p>{blog_link_html}
@@ -473,7 +476,7 @@ def build_listing_card(g):
             <li>Last Updated: <b>{updated}</b></li>
           </ul>
           <div class="card-actions">
-            <a class="btn btn-cyan btn-sm" href="{g['download_url']}" target="_blank" rel="nofollow noopener noreferrer">Download URL</a>
+            <a class="btn btn-cyan btn-sm" href="{g['download_url']}" target="_blank" rel="sponsored nofollow noopener noreferrer">Download URL</a>
             <a class="btn btn-ghost btn-sm" href="/promo-code/#{slug}">Check Code</a>
           </div>
           <p class="access-note">Login inside app only</p>

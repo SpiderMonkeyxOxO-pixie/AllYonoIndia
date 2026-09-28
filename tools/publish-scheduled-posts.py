@@ -40,8 +40,6 @@ def add_to_sitemap(post):
         f'  <url>\n'
         f'    <loc>https://allyonoindia.com/blog/{post["slug"]}/</loc>\n'
         f'    <lastmod>{TODAY}</lastmod>\n'
-        f'    <changefreq>monthly</changefreq>\n'
-        f'    <priority>0.6</priority>\n'
         f'  </url>\n'
     )
     sm = sm.replace("</urlset>", entry + "</urlset>")
