@@ -7,3 +7,6 @@ tools/.env
 .user.ini
 __pycache__/
 Scheduled/
+
+# staged post pages published by tools/publish-scheduled-posts.py (must be tracked)
+!tools/scheduled/
