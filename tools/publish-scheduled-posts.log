@@ -56,3 +56,18 @@ To https://github.com/SpiderMonkeyxOxO-pixie/AllYonoIndia.git
 Promoted blog/saga-slots-apk-download/ (game-page backlink: added)
 Committed and pushed.
 2026-08-13: nothing due to promote.
+[main 4cb29df] Publish scheduled post: confirmed-vs-unverified-vs-not-yet-reviewed
+ 7 files changed, 334 insertions(+), 1 deletion(-)
+ create mode 100644 blog/confirmed-vs-unverified-vs-not-yet-reviewed/index.html
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Promoted blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (staged post published)
+Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
+Refreshed blog/india-availability-vs-legal-status/ (links to newly published posts restored)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
