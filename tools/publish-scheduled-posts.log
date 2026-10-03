@@ -71,3 +71,21 @@ Traceback (most recent call last):
   File "/usr/lib/python3.12/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+[main bd9db58] Publish scheduled post: download-link-not-proof-of-india-availability
+ 11 files changed, 343 insertions(+), 3 deletions(-)
+ delete mode 100644 .well-known/acme-challenge/HE5azcEkvsoqtb0oIruhSHQhSa_qSQEr1ZUkqPTGN_0
+ create mode 100644 .well-known/acme-challenge/XDPEpW3VagshLiAirQmxeT6AS6YTPHRZdFTTasRGg90
+ delete mode 100644 .well-known/acme-challenge/i4Yeu9-3tAGSzD6c3t22cj0E0hc-u3IR6Fd-HlMPnQM
+ create mode 100644 .well-known/acme-challenge/w5Bj0jT2Aq7mG5MhaeVy9_T43icydgtmovPJ4Zf6twU
+ create mode 100644 blog/download-link-not-proof-of-india-availability/index.html
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Promoted blog/download-link-not-proof-of-india-availability/ (staged post published)
+Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
