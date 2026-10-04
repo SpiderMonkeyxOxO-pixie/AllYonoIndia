@@ -55,8 +55,6 @@ const COOKIE = "ai_admin";
 const MAX_CODE_LENGTH = 40;
 const MAX_NAME_LENGTH = 40;
 const WAITING = "Waiting to Release";
-const LOOKS_LIKE_URL =
-  /^https?:\/\/|^www\.|\.(com|net|org|vip|top|cc|club|bet|fun|website|info|one|co)\b/i;
 
 function authConfigured() {
   return Boolean(
@@ -203,9 +201,6 @@ function codeProblem(value, unchanged = false) {
   if (!value) return null;
   if (value.length > MAX_CODE_LENGTH) return `longer than ${MAX_CODE_LENGTH} characters`;
   if (/[\u0000-\u001f\u007f]/.test(value)) return "contains a control character";
-  // Pre-existing entries are grandfathered so they never block a save;
-  // anything newly typed must be a real code, not a link/domain.
-  if (!unchanged && LOOKS_LIKE_URL.test(value)) return "looks like a link/domain, not a promo code";
   return null;
 }
 
@@ -598,7 +593,9 @@ async function handle(req, res) {
   return send(res, 404, "Not found", "text/plain");
 }
 
-if (require.main === module) {
+// Always start: under PM2, require.main is PM2's own wrapper, so a `require.main === module`
+// guard would leave the process "online" but never listening.
+if (!process.env.PROMO_ADMIN_NO_LISTEN) {
   if (!authConfigured()) console.warn("[promo-admin] ADMIN_* settings missing — login is disabled.");
   http
     .createServer((req, res) => {
