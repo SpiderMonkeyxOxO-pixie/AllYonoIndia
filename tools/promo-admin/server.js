@@ -598,7 +598,9 @@ async function handle(req, res) {
   return send(res, 404, "Not found", "text/plain");
 }
 
-if (require.main === module) {
+// Always start: under PM2, require.main is PM2's own wrapper, so a `require.main === module`
+// guard would leave the process "online" but never listening.
+if (!process.env.PROMO_ADMIN_NO_LISTEN) {
   if (!authConfigured()) console.warn("[promo-admin] ADMIN_* settings missing — login is disabled.");
   http
     .createServer((req, res) => {
