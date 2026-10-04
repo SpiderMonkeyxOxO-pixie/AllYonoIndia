@@ -89,3 +89,17 @@ Traceback (most recent call last):
   File "/usr/lib/python3.12/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+[main 0330268] Publish scheduled post: yono-games-kyc-requirement-proof
+ 7 files changed, 346 insertions(+), 1 deletion(-)
+ create mode 100644 blog/yono-games-kyc-requirement-proof/index.html
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Promoted blog/yono-games-kyc-requirement-proof/ (staged post published)
+Refreshed blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (links to newly published posts restored)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
