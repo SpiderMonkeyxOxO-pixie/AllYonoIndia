@@ -141,11 +141,13 @@ def main():
         text = f.read()
     last_updated, games = parse_promo_text(text)
 
-    main_rows = "\n            " + "\n            ".join(
-        [static_checking_row("dhan-game", "DhanGame")]
-        + [build_promo_row(g) for g in games]
-    ) + "\n          "
     by_slug = {g["slug"]: g for g in games}
+    # The static "Checking" row is a fallback only; a block in promo-codes.txt
+    # (managed from code.allyonoindia.com) wins.
+    fallback_rows = [] if "dhan-game" in by_slug else [static_checking_row("dhan-game", "DhanGame")]
+    main_rows = "\n            " + "\n            ".join(
+        fallback_rows + [build_promo_row(g) for g in games]
+    ) + "\n          "
     preview_rows = "\n            " + "\n            ".join(
         build_promo_row(by_slug[s]) for s in PREVIEW_SLUGS if s in by_slug
     ) + "\n          "

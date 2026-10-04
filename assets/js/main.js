@@ -291,7 +291,9 @@
         });
 
         if (promoTableBody) {
-          promoTableBody.innerHTML = buildGoldRummyRow() + buildDhanGameRow() + games.map(buildPromoRow).join("");
+          // The hard-coded "Checking" rows are fallbacks only: once a platform has a block in
+          // promo-codes.txt (managed from code.allyonoindia.com) the file's row wins.
+          promoTableBody.innerHTML = (bySlug["gold-rummy"] ? "" : buildGoldRummyRow()) + (bySlug["dhan-game"] ? "" : buildDhanGameRow()) + games.map(buildPromoRow).join("");
           applyPromoFilters();
           if (window.location.hash) {
             var target = document.getElementById(window.location.hash.slice(1));
