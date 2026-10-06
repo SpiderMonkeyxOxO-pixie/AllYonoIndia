@@ -103,3 +103,22 @@ Traceback (most recent call last):
   File "/usr/lib/python3.12/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+[main d0614b4] Publish scheduled post: yono-games-upi-support-proof
+ 10 files changed, 343 insertions(+), 3 deletions(-)
+ create mode 100644 blog/yono-games-upi-support-proof/index.html
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Promoted blog/yono-games-upi-support-proof/ (staged post published)
+Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
+Refreshed blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (links to newly published posts restored)
+Refreshed blog/download-link-not-proof-of-india-availability/ (links to newly published posts restored)
+Refreshed blog/yono-games-kyc-requirement-proof/ (links to newly published posts restored)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+2026-10-05: nothing due to promote.
+2026-10-06: nothing due to promote.
