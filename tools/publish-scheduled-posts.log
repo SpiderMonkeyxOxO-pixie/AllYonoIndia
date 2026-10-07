@@ -118,3 +118,20 @@ Traceback (most recent call last):
 subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
 2026-10-05: nothing due to promote.
 2026-10-06: nothing due to promote.
+[main 731718d] Publish scheduled post: rummy-51-bonus-app-what-it-means
+ 8 files changed, 397 insertions(+), 42 deletions(-)
+ create mode 100644 blog/rummy-51-bonus-app-what-it-means/index.html
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Promoted blog/rummy-51-bonus-app-what-it-means/ (staged post published)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
