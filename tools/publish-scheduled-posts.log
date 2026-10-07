@@ -59,7 +59,6 @@ Committed and pushed.
 [main 4cb29df] Publish scheduled post: confirmed-vs-unverified-vs-not-yet-reviewed
  7 files changed, 334 insertions(+), 1 deletion(-)
  create mode 100644 blog/confirmed-vs-unverified-vs-not-yet-reviewed/index.html
-fatal: could not read Password for 'https://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@github.com': No such device or address
 Promoted blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (staged post published)
 Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
 Refreshed blog/india-availability-vs-legal-status/ (links to newly published posts restored)
@@ -78,7 +77,6 @@ subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' retur
  delete mode 100644 .well-known/acme-challenge/i4Yeu9-3tAGSzD6c3t22cj0E0hc-u3IR6Fd-HlMPnQM
  create mode 100644 .well-known/acme-challenge/w5Bj0jT2Aq7mG5MhaeVy9_T43icydgtmovPJ4Zf6twU
  create mode 100644 blog/download-link-not-proof-of-india-availability/index.html
-fatal: could not read Password for 'https://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@github.com': No such device or address
 Promoted blog/download-link-not-proof-of-india-availability/ (staged post published)
 Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
 Traceback (most recent call last):
@@ -92,7 +90,6 @@ subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' retur
 [main 0330268] Publish scheduled post: yono-games-kyc-requirement-proof
  7 files changed, 346 insertions(+), 1 deletion(-)
  create mode 100644 blog/yono-games-kyc-requirement-proof/index.html
-fatal: could not read Password for 'https://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@github.com': No such device or address
 Promoted blog/yono-games-kyc-requirement-proof/ (staged post published)
 Refreshed blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (links to newly published posts restored)
 Traceback (most recent call last):
@@ -106,7 +103,6 @@ subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' retur
 [main d0614b4] Publish scheduled post: yono-games-upi-support-proof
  10 files changed, 343 insertions(+), 3 deletions(-)
  create mode 100644 blog/yono-games-upi-support-proof/index.html
-fatal: could not read Password for 'https://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@github.com': No such device or address
 Promoted blog/yono-games-upi-support-proof/ (staged post published)
 Refreshed blog/yono-games-available-in-india-meaning/ (links to newly published posts restored)
 Refreshed blog/confirmed-vs-unverified-vs-not-yet-reviewed/ (links to newly published posts restored)
