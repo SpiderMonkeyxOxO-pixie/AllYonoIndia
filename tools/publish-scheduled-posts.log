@@ -161,3 +161,16 @@ Traceback (most recent call last):
   File "/usr/lib/python3.12/subprocess.py", line 571, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+[main 6d86d30] Publish scheduled post: yono-arcade-pure-apk-vs-arcade-mall
+ 6 files changed, 362 insertions(+)
+ create mode 100644 blog/yono-arcade-pure-apk-vs-arcade-mall/index.html
+fatal: could not read Username for 'https://github.com': No such device or address
+Promoted blog/yono-arcade-pure-apk-vs-arcade-mall/ (staged post published)
+Traceback (most recent call last):
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 215, in <module>
+    main()
+  File "/www/wwwroot/allyonoindia.com/tools/publish-scheduled-posts.py", line 207, in main
+    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
