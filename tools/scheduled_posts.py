@@ -202,6 +202,6 @@ SCHEDULED_POSTS = [
         "eyebrow": "New Apps",
         "excerpt": "VIP Rummy launches 20 October 2026. Is it a real cash game? See what's confirmed, what isn't, and how to check before you install.",
         "image_alt": "VIP Rummy app logo, a new real-money rummy game launching 20 October 2026",
-        "cover_image": "/assets/images/games/vip-rummy.webp"
+        "cover_image": "/assets/images/blog/vip-rummy-real-cash-game.webp"
     }
 ]
