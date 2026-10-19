@@ -194,5 +194,14 @@ SCHEDULED_POSTS = [
         "excerpt": "\"Yono All Games new APK\" is a common search label, not an official product. See what it can refer to, why \"new\" proves little, and how to check a file.",
         "image_alt": "A hub icon connected to many app tiles with a dotted NEW label under a magnifying glass",
         "cover_image": "/assets/images/blog/yono-all-games-new-apk-explained.webp"
+    },
+    {
+        "slug": "vip-rummy-real-cash-game",
+        "published_date": "2026-10-20",
+        "title": "Is VIP Rummy a Real Cash Game? Launch-Day Status (2026)",
+        "eyebrow": "New Apps",
+        "excerpt": "VIP Rummy launches 20 October 2026. Is it a real cash game? See what's confirmed, what isn't, and how to check before you install.",
+        "image_alt": "VIP Rummy app logo, a new real-money rummy game launching 20 October 2026",
+        "cover_image": "/assets/images/games/vip-rummy.webp"
     }
 ]
