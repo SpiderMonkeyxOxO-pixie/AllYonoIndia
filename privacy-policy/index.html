@@ -150,14 +150,25 @@
 </nav>
 
 <script src="/assets/js/main.min.js" defer></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT"></script>
+<!-- Google tag (gtag.js) -- the gtag.js library itself is loaded on
+     idle/after-load so its ~700ms main-thread scripting cost does not
+     compete with the LCP paint; dataLayer queues calls immediately so
+     the "js"/"config" timestamps stay accurate. -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag("js", new Date());
-
   gtag("config", "G-VGXGPH0EFT");
+  (function(){
+    function loadGtag(){
+      var s=document.createElement("script");
+      s.async=true;
+      s.src="https://www.googletagmanager.com/gtag/js?id=G-VGXGPH0EFT";
+      document.head.appendChild(s);
+    }
+    if("requestIdleCallback" in window){requestIdleCallback(loadGtag,{timeout:3500});}
+    else{window.addEventListener("load",function(){setTimeout(loadGtag,1);});}
+  })();
 </script>
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="F2Upk514gOfWdTFQ86ltnw" async></script>
 </body>
