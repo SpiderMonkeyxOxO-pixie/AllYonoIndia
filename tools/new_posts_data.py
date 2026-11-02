@@ -2872,7 +2872,7 @@ NEW_POSTS = [
         "cover_image": "/assets/images/blog/money-rummy-promo-code.webp",
         "image_alt": "Money Rummy promo code guide showing where to redeem gift codes inside the app and check live code status",
         "breadcrumb_label": "Money Rummy Promo Code & Rewards Guide",
-        "published_date": "2026-11-01",
+        "published_date": "2026-11-02",
         "body_html": f'''<p>A promo code on Money Rummy is a short string you redeem inside the app for a one-time bonus &mdash; typically in-app credit added to your account balance rather than a cash payout, and the exact value and terms are set by Money Rummy itself, not by this directory. This guide covers exactly where that redemption screen lives, how the release schedule works across the day, and the honest current status for this listing.</p>
 
       <div class="callout">
