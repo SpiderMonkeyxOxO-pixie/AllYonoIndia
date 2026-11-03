@@ -2918,4 +2918,102 @@ NEW_POSTS = [
             {"question": "How is this different from the Money Rummy availability guide?", "answer": "That post covers India-specific launch, legal, and access facts. This one is focused specifically on how promo code redemption works and the current code status."},
         ],
     },
+    {
+        "title": "Is Ever 777 Legal in India? Availability & Status Guide",
+        "slug": "ever-777-india-availability-guide",
+        "meta_title": "Is Ever 777 Legal in India? Availability & Status Guide",
+        "meta_description": "Ever 777 is listed on the All Yono network with a ₹165 sign-up bonus. Here's what's known about its India availability, legal classification, and what still needs verification.",
+        "keywords": "ever 777 india, is ever 777 legal in india, ever 777 availability, ever 777 apk",
+        "eyebrow": "Legal Information",
+        "cover_image": "/assets/images/blog/ever-777-india-availability-guide.webp",
+        "image_alt": "Is Ever 777 Legal in India? Availability and Status Guide",
+        "breadcrumb_label": "Is Ever 777 Legal in India?",
+        "published_date": "2026-11-02",
+        "body_html": f'''<p>Ever 777 is a spin-and-multiplier app listed on the wider All Yono network with a &#8377;165 sign-up bonus and &#8377;100 minimum withdrawal, distributed as a direct APK rather than through the Play Store. This guide covers its legal standing specifically for Indian users, separate from the general app listing elsewhere on the network, which covers install steps and features.</p>
+
+      <div class="callout">
+        All Yono India is an independent directory and is not the developer, publisher, or operator of Ever 777.
+      </div>
+
+      <h2>What Ever 777 Actually Is</h2>
+      <p>Ever 777 runs on spin combinations, multiplier rounds, and bonus spin features, all from the one app. Its own listing states a &#8377;165 sign-up bonus and &#8377;100 minimum withdrawal &mdash; figures set by the app itself, not independently verified by this directory. Feature availability can change with platform updates, so check the app directly after installing rather than assuming a fixed list.</p>
+
+      <h2>How the Online Gaming Act 2025 Affects Ever 777</h2>
+      <p>The Promotion and Regulation of Online Gaming Act, 2025, in force with the Online Gaming Rules, 2026 since 1 May 2026, prohibits online money games nationally, regardless of whether they're based on skill, chance, or both &mdash; spin and multiplier formats like Ever 777's fall squarely under that prohibition for real-money play. As of this guide's publish date, we have not confirmed whether Ever 777 holds any licensing claim under this framework; the app's own in-app disclosures are the authoritative source here, not third-party claims. See our <a href="/blog/is-online-rummy-legal-in-india/" {LINK}>full legal status guide</a> for what the Act covers generally.</p>
+
+      <h2>State-by-State Availability</h2>
+      <p>Several Indian states &mdash; including Telangana, Andhra Pradesh, Assam, Odisha, Nagaland, and Sikkim &mdash; carried additional state-specific restrictions on real-money gaming apps even before the 2025 Act's national prohibition. We have not independently tested whether Ever 777 geo-blocks users in any state; this directory does not confirm state-level enforcement behavior for any single app.</p>
+
+      <h2>What We've Verified vs. What We Haven't</h2>
+      <p>Verified: Ever 777 is listed on the network, distributes as a direct APK rather than a Play Store app, and states a &#8377;165 sign-up bonus with a &#8377;100 minimum withdrawal. Not verified: licensing status under the 2025 Act, state-blocking behavior, and any claim of "government approval" circulating outside the app's own materials.</p>
+
+      <h2>Our India-Specific Status</h2>
+      <ul>
+        <li><strong>Distribution</strong> &mdash; Direct APK, not Play Store</li>
+        <li><strong>Online Gaming Act 2025 compliance</strong> &mdash; Not Yet Reviewed</li>
+        <li><strong>State-blocking behavior</strong> &mdash; Not Yet Reviewed</li>
+        <li><strong>Age/KYC enforcement</strong> &mdash; Not Yet Reviewed</li>
+      </ul>
+
+      <h2>Bottom Line</h2>
+      <p>Ever 777 lists a &#8377;165 sign-up bonus and distributes as a direct APK, but its licensing status under the Online Gaming Act 2025 and its state-blocking behaviour remain unverified. Real-money online gaming is nationally prohibited under the 2025 Act regardless of app-specific compliance claims &mdash; this page will be updated with tested findings as they're confirmed.</p>
+
+      <h2>FAQs</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Is Ever 777 legal in India?", "answer": "We have not confirmed Ever 777's specific licensing or compliance status. Treat any in-app claim of approval as something to verify yourself, not as confirmed by this directory."},
+            {"question": "Is Ever 777 banned in any Indian states?", "answer": "Several states restrict real-money spin and slot-style apps generally. We haven't confirmed whether Ever 777 specifically blocks users in those states."},
+            {"question": "Does Ever 777 comply with the Online Gaming Act 2025?", "answer": "Not yet reviewed — check the app's own in-app disclosures for its current licensing claims."},
+            {"question": "What is Ever 777's sign-up bonus?", "answer": "₹165, per the app's own stated listing, with a ₹100 minimum withdrawal. This is the operator's figure, not independently verified by this site."},
+        ],
+    },
+    {
+        "title": "Is Jeetexch Legal in India? Availability & Status Guide",
+        "slug": "jeetexch-india-availability-guide",
+        "meta_title": "Is Jeetexch Legal in India? Availability & Status Guide",
+        "meta_description": "Jeetexch is listed on the All Yono network with a ₹150 sign-up bonus. Here's what's known about its India availability, legal classification, and what still needs verification.",
+        "keywords": "jeetexch india, is jeetexch legal in india, jeetexch availability, jeetexch apk",
+        "eyebrow": "Legal Information",
+        "cover_image": "/assets/images/blog/jeetexch-india-availability-guide.webp",
+        "image_alt": "Is Jeetexch Legal in India? Availability and Status Guide",
+        "breadcrumb_label": "Is Jeetexch Legal in India?",
+        "published_date": "2026-11-03",
+        "body_html": f'''<p>Jeetexch is a real-money gaming app listed on the wider All Yono network with a &#8377;150 sign-up bonus and &#8377;100 minimum withdrawal, distributed as a direct APK rather than through the Play Store. This guide covers its legal standing specifically for Indian users, separate from the general app listing elsewhere on the network, which covers install steps and features.</p>
+
+      <div class="callout">
+        All Yono India is an independent directory and is not the developer, publisher, or operator of Jeetexch.
+      </div>
+
+      <h2>What Jeetexch Actually Is</h2>
+      <p>Jeetexch is listed as a real-money gaming app in the wider Yono-style lineup. Its own listing states a &#8377;150 sign-up bonus and &#8377;100 minimum withdrawal &mdash; figures set by the app itself, not independently verified by this directory. We have not independently confirmed which specific game formats the app currently offers; check the app directly after installing rather than assuming a fixed list.</p>
+
+      <h2>How the Online Gaming Act 2025 Affects Jeetexch</h2>
+      <p>The Promotion and Regulation of Online Gaming Act, 2025, in force with the Online Gaming Rules, 2026 since 1 May 2026, prohibits online money games nationally, regardless of whether they're based on skill, chance, or both &mdash; real-money formats like Jeetexch's fall squarely under that prohibition for real-money play. As of this guide's publish date, we have not confirmed whether Jeetexch holds any licensing claim under this framework; the app's own in-app disclosures are the authoritative source here, not third-party claims. See our <a href="/blog/is-online-rummy-legal-in-india/" {LINK}>full legal status guide</a> for what the Act covers generally.</p>
+
+      <h2>State-by-State Availability</h2>
+      <p>Several Indian states &mdash; including Telangana, Andhra Pradesh, Assam, Odisha, Nagaland, and Sikkim &mdash; carried additional state-specific restrictions on real-money gaming apps even before the 2025 Act's national prohibition. We have not independently tested whether Jeetexch geo-blocks users in any state; this directory does not confirm state-level enforcement behavior for any single app.</p>
+
+      <h2>What We've Verified vs. What We Haven't</h2>
+      <p>Verified: Jeetexch is listed on the network, distributes as a direct APK rather than a Play Store app, and states a &#8377;150 sign-up bonus with a &#8377;100 minimum withdrawal. Not verified: licensing status under the 2025 Act, state-blocking behavior, and any claim of "government approval" circulating outside the app's own materials.</p>
+
+      <h2>Our India-Specific Status</h2>
+      <ul>
+        <li><strong>Distribution</strong> &mdash; Direct APK, not Play Store</li>
+        <li><strong>Online Gaming Act 2025 compliance</strong> &mdash; Not Yet Reviewed</li>
+        <li><strong>State-blocking behavior</strong> &mdash; Not Yet Reviewed</li>
+        <li><strong>Age/KYC enforcement</strong> &mdash; Not Yet Reviewed</li>
+      </ul>
+
+      <h2>Bottom Line</h2>
+      <p>Jeetexch lists a &#8377;150 sign-up bonus and distributes as a direct APK, but its licensing status under the Online Gaming Act 2025 and its state-blocking behaviour remain unverified. Real-money online gaming is nationally prohibited under the 2025 Act regardless of app-specific compliance claims &mdash; this page will be updated with tested findings as they're confirmed.</p>
+
+      <h2>FAQs</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "Is Jeetexch legal in India?", "answer": "We have not confirmed Jeetexch's specific licensing or compliance status. Treat any in-app claim of approval as something to verify yourself, not as confirmed by this directory."},
+            {"question": "Is Jeetexch banned in any Indian states?", "answer": "Several states restrict real-money gaming apps generally. We haven't confirmed whether Jeetexch specifically blocks users in those states."},
+            {"question": "Does Jeetexch comply with the Online Gaming Act 2025?", "answer": "Not yet reviewed — check the app's own in-app disclosures for its current licensing claims."},
+            {"question": "What is Jeetexch's sign-up bonus?", "answer": "₹150, per the app's own stated listing, with a ₹100 minimum withdrawal. This is the operator's figure, not independently verified by this site."},
+        ],
+    },
 ]
