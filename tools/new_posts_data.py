@@ -3016,4 +3016,36 @@ NEW_POSTS = [
             {"question": "What is Jeetexch's sign-up bonus?", "answer": "₹150, per the app's own stated listing, with a ₹100 minimum withdrawal. This is the operator's figure, not independently verified by this site."},
         ],
     },
+    {
+        "title": "Cash Rummy Launch: 5 Nov 2026, 8:00 AM IST — Download & Promo Code",
+        "slug": "cash-rummy-launch",
+        "meta_title": "Cash Rummy Launch: 5 Nov 2026, 8:00 AM IST — Download & Promo Code",
+        "meta_description": "Cash Rummy is the newest rummy app on the All Yono network, launching 5 November 2026 at 8:00 AM IST. Launch date, download status, and an honest pre-launch first look.",
+        "keywords": "cash rummy download, cash rummy promo code, cash rummy app download, cash rummy all yono, cash rummy launch",
+        "eyebrow": "Rummy Games",
+        "cover_image": "/assets/images/games/cash-rummy.png",
+        "image_alt": "Cash Rummy app icon",
+        "breadcrumb_label": "Cash Rummy Launch",
+        "published_date": "2026-11-04",
+        "body_html": f'''<p>Cash Rummy is a real-money rummy app launching 5 November 2026 at 8:00 AM IST as the newest addition to the All Yono network. No download link or promo code has been confirmed yet &mdash; this page will be updated with verified details once the app goes live.</p>
+
+      <div class="callout">
+        All Yono India is an independent directory. It is not the developer, publisher, or operator of Cash Rummy. This site does not handle login, registration, deposits, or withdrawals. Read the <a href="/disclaimer/" {LINK}>Disclaimer</a> before using any external link.
+      </div>
+
+      <h2>Cash Rummy Download Status</h2>
+      <p>No APK download link has been released as of 4 November 2026. Like other apps in this network, Cash Rummy will most likely be distributed as a sideloaded APK from the platform&rsquo;s own website rather than through Google Play.</p>
+
+      <h2>Cash Rummy Promo Code Status</h2>
+      <p>No Cash Rummy promo code has been announced as of 4 November 2026. Check the <a href="/promo-code/" {LINK}>Promo Code page</a> for daily-updated codes across all platforms.</p>
+
+      <h2>FAQs</h2>
+      <!--FAQS_LIST-->''',
+        "faqs": [
+            {"question": "When does Cash Rummy launch?", "answer": "Cash Rummy is expected to launch on 5 November 2026 at 8:00 AM IST. This page will be updated with a verified download link and full review once the app goes live."},
+            {"question": "Is there a Cash Rummy promo code?", "answer": "No promo code has been announced yet as of 4 November 2026. Check the Promo Code page after launch for daily-updated codes."},
+            {"question": "Where can I download the Cash Rummy APK?", "answer": "The download link is not yet available. All Yono India does not host APK files and will only publish a link once it has been independently verified after launch."},
+            {"question": "Is Cash Rummy safe to download?", "answer": "Safety cannot be assessed before launch. Once the APK is available, this page will be updated with package name, signer certificate, and permissions details."},
+        ],
+    },
 ]
